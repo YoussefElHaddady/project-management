@@ -8,11 +8,9 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
 
 import ma.usf.examples.projectmanagement.dao.EmployeeRepository;
 import ma.usf.examples.projectmanagement.dao.ProjectRepository;
-import ma.usf.examples.projectmanagement.entities.Employee;
 import ma.usf.examples.projectmanagement.entities.Project;
 
 @Controller
@@ -21,7 +19,7 @@ public class ProjectController {
 
 	@Autowired
 	ProjectRepository proRepo;
-	
+
 	@Autowired
 	EmployeeRepository empRepo;
 
@@ -37,7 +35,7 @@ public class ProjectController {
 	public String displayProjectForm(Model model) {
 		model.addAttribute("project", new Project());
 		model.addAttribute("allEmployees", empRepo.findAll());
-		
+
 		return "projects/new-project";
 	}
 
@@ -45,7 +43,7 @@ public class ProjectController {
 	public String createProject(Project project, Model model) {
 		// handle saving to the database ...
 		proRepo.save(project);
-		
+
 		// use a redirect to prevent duplicate submissions
 		return "redirect:/projects";
 	}
