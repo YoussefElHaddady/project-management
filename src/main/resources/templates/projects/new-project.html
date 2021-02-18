@@ -1,19 +1,8 @@
 <!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
-<meta name="viewport"
-	content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-<!-- Bootstrap CSS -->
-<link rel="stylesheet"
-	href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-	integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-	crossorigin="anonymous">
-
-<title>New Project</title>
-</head>
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:replace="layouts::header"></head>
 <body>
+	<nav th:replace="layouts::navbar"></nav>
 	<div class="container">
 		<form action="/projects/save" th:object="${project}" method="POST">
 
@@ -23,7 +12,7 @@
 				<option th:value="INPROGRESS">In Progress</option>
 				<option th:value="COMPLETED">Completed</option>
 			</select>
-			<textarea type="text" placeholder="Enter Project Description"
+			<textarea placeholder="Enter Project Description"
 				th:field="${project.description}"></textarea>
 			<button type="submit">Create Project</button>
 		</form>

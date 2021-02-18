@@ -9,12 +9,14 @@ import lombok.Data;
 
 @Data
 @Entity
-public class Project {
+public class Employee {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private long id;
-	private String name;
-	private String stage; // NOTSTARTED, COMPLETED, INPROGRESS
-	private String description;
+
+	private String firstName;
+	private String lastName;
+
+	private String email;
 }

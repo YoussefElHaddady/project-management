@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:replace="layouts::header"></head>
+<body>
+
+	<nav th:replace="layouts::navbar"></nav>
+
+	<div class="container mt-3">
+		<div>
+			<h3>Current Projects</h3>
+			<hr>
+			
+			<a th:href="@{/projects/new}" class="btn btn-primary btn-sm mb-3">New Project</a>
+			
+			<table class="table table-bordered table-striped">
+				<thead class="thead-dark">
+					<th>Project Name</th>
+					<th>Project stage</th>
+				</thead>
+				<tbody>
+					<tr th:each="project : ${projects}">
+						<td th:text="${project.name}"></td>
+						<td th:text="${project.stage}" th:attr="class='m-2 badge badge-' + ${project.stage == 'NOTSTARTED' ? 'danger' : project.stage == 'COMPLETED' ? 'success' : 'primary'}"></td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+</body>
+</html>
