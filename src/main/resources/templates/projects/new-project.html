@@ -3,25 +3,40 @@
 <head th:replace="layouts::header"></head>
 <body>
 	<nav th:replace="layouts::navbar"></nav>
-	<div class="container">
-		<form action="/projects/save" th:object="${project}" method="POST">
+	
+	<div class="container mt-3">
+		<form class="j" action="/projects/save" th:object="${project}" method="POST">
+			<div class="mx-auto col-8 mb-4">
+				<label for="project_name" class="form-label">Project name</label> 
+				<input
+					type="text" placeholder="Enter Project Name" class="form-control"
+					id="project_name" th:field="*{name}" />
+			</div>
+			<div class="mx-auto col-8 mb-4">
+				<label for="project_desc" class="form-label">Project Description</label>
+				<textarea placeholder="Enter Project Description" class="form-control" id="project_desc"
+					th:field="${project.description}" ></textarea>
+			</div>
+			<div class="mx-auto col-8 mb-4">
+				<label class="form-label">Project Stage</label>
+				<select class="form-select" th:field="${project.stage}">
+					<option selected="selected" th:value="NOTSTARTED">Not Started</option>
+					<option th:value="INPROGRESS">In Progress</option>
+					<option th:value="COMPLETED">Completed</option>
+				</select>
+			</div>
 
-			<input type="text" placeholder="Project Name" th:field="*{name}">
-			<select th:field="${project.stage}">
-				<option th:value="NOTSTARTED">Not Started</option>
-				<option th:value="INPROGRESS">In Progress</option>
-				<option th:value="COMPLETED">Completed</option>
-			</select>
-			<textarea placeholder="Enter Project Description"
-				th:field="${project.description}"></textarea>
-
-			<select th:field="*{employees}" multiple="multiple">
-				<option th:each="employee : ${allEmployees}"
-					th:value="${employee.id}" th:text="${employee.firstName}">
-				</option>
-			</select>
-
-			<button type="submit">Create Project</button>
+			<div class="mx-auto col-8 mb-4">
+				<label class="form-label">Project Collaborators</label>
+				<select class="form-select" th:field="*{employees}" multiple="multiple">
+					<option th:each="employee : ${allEmployees}"
+						th:value="${employee.id}" th:text="${employee.firstName}">
+					</option>
+				</select>
+			</div>
+			<div class="mx-auto col-8">
+			<button type="submit" class="btn btn-primary">Create Project</button>
+			</div>
 		</form>
 	</div>
 </body>

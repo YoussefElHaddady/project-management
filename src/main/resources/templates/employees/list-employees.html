@@ -13,10 +13,12 @@
 			<a th:href="@{/employees/new}" class="btn btn-primary btn-sm mb-3">New Employee</a>
 			
 			<table class="table table-bordered table-striped">
-				<thead  class="thead-dark">
-					<th>Employee firstname</th>
-					<th>Employee lastname</th>
-					<th>Employee email</th>
+				<thead  class="table-dark">
+					<tr>
+						<th>Employee firstname</th>
+						<th>Employee lastname</th>
+						<th>Employee email</th>
+					</tr>
 				</thead>
 				<tbody>
 					<tr th:each="employee : ${employees}">
