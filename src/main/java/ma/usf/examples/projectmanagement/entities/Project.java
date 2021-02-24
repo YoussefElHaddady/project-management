@@ -12,6 +12,7 @@ import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.JoinTable;
 import javax.persistence.ManyToMany;
+import javax.persistence.SequenceGenerator;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -23,7 +24,8 @@ import lombok.NonNull;
 public class Project {
 
 	@Id
-	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	@GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "project_generator")
+	@SequenceGenerator(name = "project_generator", sequenceName = "project_seq", allocationSize = 1)
 	private long id;
 
 	@NonNull
@@ -49,10 +51,10 @@ public class Project {
 	}
 
 	public void addEmployee(Employee emp) {
-		if(employees == null) {
+		if (employees == null) {
 			employees = new ArrayList<>();
 		}
-		
+
 		employees.add(emp);
 	}
 
