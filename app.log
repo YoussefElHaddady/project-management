@@ -546,3 +546,598 @@ Database is already closed (to disable automatic closing at VM shutdown, add ";D
 
 
  
+21-37-31  INFO 2300 --- [Thread-9] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+21-37-31  INFO 2300 --- [Thread-9] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+21-37-31  WARN 2300 --- [Thread-9] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: La base de données est déjà fermée (pour désactiver la fermeture automatique à l'arrêt de la VM, ajoutez "; DB_CLOSE_ON_EXIT = FALSE" à l'URL db)
+Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+21-37-31  INFO 2300 --- [restartedMain] m.u.e.p.ProjectManagementApplication     : Starting ProjectManagementApplication using Java 11.0.10 on DESKTOP-U6AD8VU with PID 2300 (F:\Java\spring_workspace\project-management\target\classes started by pc in F:\Java\spring_workspace\project-management)
+21-37-31 DEBUG 2300 --- [restartedMain] m.u.e.p.ProjectManagementApplication     : Running with Spring Boot v2.4.2, Spring v5.3.3
+21-37-31  INFO 2300 --- [restartedMain] m.u.e.p.ProjectManagementApplication     : The following profiles are active: dev
+21-37-31  INFO 2300 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+21-37-31  INFO 2300 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10 ms. Found 2 JPA repository interfaces.
+21-37-31  INFO 2300 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+21-37-31  INFO 2300 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 267 ms
+21-37-31  INFO 2300 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+21-37-31  INFO 2300 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+21-37-31  INFO 2300 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+21-37-31  WARN 2300 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+21-37-31  INFO 2300 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@f365dff, org.springframework.security.web.context.SecurityContextPersistenceFilter@39cabf26, org.springframework.security.web.header.HeaderWriterFilter@2f04262f, org.springframework.security.web.csrf.CsrfFilter@1194bbe8, org.springframework.security.web.authentication.logout.LogoutFilter@39ce4a31, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6a7b86b9, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@64c0e087, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6c114046, org.springframework.security.web.session.SessionManagementFilter@23a25845, org.springframework.security.web.access.ExceptionTranslationFilter@5b810c7a]
+21-37-31  INFO 2300 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+21-37-31  INFO 2300 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+21-37-31  INFO 2300 --- [restartedMain] m.u.e.p.ProjectManagementApplication     : Started ProjectManagementApplication in 0.586 seconds (JVM running for 603.247)
+21-37-31  INFO 2300 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+21-39-31  INFO 2300 --- [Thread-14] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+21-39-31  INFO 2300 --- [Thread-14] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+21-39-31  WARN 2300 --- [Thread-14] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: La base de données est déjà fermée (pour désactiver la fermeture automatique à l'arrêt de la VM, ajoutez "; DB_CLOSE_ON_EXIT = FALSE" à l'URL db)
+Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+21-39-31  INFO 2300 --- [restartedMain] m.u.e.p.ProjectManagementApplication     : Starting ProjectManagementApplication using Java 11.0.10 on DESKTOP-U6AD8VU with PID 2300 (F:\Java\spring_workspace\project-management\target\classes started by pc in F:\Java\spring_workspace\project-management)
+21-39-31 DEBUG 2300 --- [restartedMain] m.u.e.p.ProjectManagementApplication     : Running with Spring Boot v2.4.2, Spring v5.3.3
+21-39-31  INFO 2300 --- [restartedMain] m.u.e.p.ProjectManagementApplication     : The following profiles are active: dev
+21-39-31  INFO 2300 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+21-39-31  INFO 2300 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 2 JPA repository interfaces.
+21-39-31  INFO 2300 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+21-39-31  INFO 2300 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 280 ms
+21-39-31  INFO 2300 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+21-39-31  INFO 2300 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+21-39-31  INFO 2300 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+21-39-31  WARN 2300 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+21-39-31  INFO 2300 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2d1f676b, org.springframework.security.web.context.SecurityContextPersistenceFilter@5d0f1cca, org.springframework.security.web.header.HeaderWriterFilter@11d6d65, org.springframework.security.web.csrf.CsrfFilter@4a232bfd, org.springframework.security.web.authentication.logout.LogoutFilter@36f73753, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@729d3dc3, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@188100b0, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3d8b76f8, org.springframework.security.web.session.SessionManagementFilter@e20b230, org.springframework.security.web.access.ExceptionTranslationFilter@2cc07faf]
+21-39-31  INFO 2300 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+21-39-31  INFO 2300 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+21-39-31  INFO 2300 --- [restartedMain] m.u.e.p.ProjectManagementApplication     : Started ProjectManagementApplication in 0.615 seconds (JVM running for 720.794)
+21-39-31  INFO 2300 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+21-40-31  INFO 2300 --- [Thread-19] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+21-40-31  INFO 2300 --- [Thread-19] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+21-41-31  WARN 2300 --- [Thread-19] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: La base de données est déjà fermée (pour désactiver la fermeture automatique à l'arrêt de la VM, ajoutez "; DB_CLOSE_ON_EXIT = FALSE" à l'URL db)
+Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+21-41-31  INFO 2300 --- [restartedMain] m.u.e.p.ProjectManagementApplication     : Starting ProjectManagementApplication using Java 11.0.10 on DESKTOP-U6AD8VU with PID 2300 (F:\Java\spring_workspace\project-management\target\classes started by pc in F:\Java\spring_workspace\project-management)
+21-41-31 DEBUG 2300 --- [restartedMain] m.u.e.p.ProjectManagementApplication     : Running with Spring Boot v2.4.2, Spring v5.3.3
+21-41-31  INFO 2300 --- [restartedMain] m.u.e.p.ProjectManagementApplication     : The following profiles are active: dev
+21-41-31  INFO 2300 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+21-41-31  INFO 2300 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 11 ms. Found 2 JPA repository interfaces.
+21-41-31  INFO 2300 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+21-41-31  INFO 2300 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 285 ms
+21-41-31  INFO 2300 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+21-41-31  INFO 2300 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+21-41-31  INFO 2300 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+21-41-31  WARN 2300 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+21-41-31  INFO 2300 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@53cf5edc, org.springframework.security.web.context.SecurityContextPersistenceFilter@4d36e1b8, org.springframework.security.web.header.HeaderWriterFilter@86bc1cf, org.springframework.security.web.csrf.CsrfFilter@16dbcd2b, org.springframework.security.web.authentication.logout.LogoutFilter@2988391c, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@356264b8, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@52d5dd05, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@5bb509ca, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@67fcdc24, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@314f0cad, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7656be3d, org.springframework.security.web.session.SessionManagementFilter@5ccc6bf, org.springframework.security.web.access.ExceptionTranslationFilter@17c7a4ee, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6299eaf3]
+21-41-31  INFO 2300 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+21-41-31  INFO 2300 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+21-41-31  INFO 2300 --- [restartedMain] m.u.e.p.ProjectManagementApplication     : Started ProjectManagementApplication in 0.623 seconds (JVM running for 802.142)
+21-41-31  INFO 2300 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+21-42-31  INFO 2300 --- [Thread-24] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+21-42-31  INFO 2300 --- [Thread-24] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+21-42-31  WARN 2300 --- [Thread-24] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: La base de données est déjà fermée (pour désactiver la fermeture automatique à l'arrêt de la VM, ajoutez "; DB_CLOSE_ON_EXIT = FALSE" à l'URL db)
+Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+21-42-31  INFO 2300 --- [restartedMain] m.u.e.p.ProjectManagementApplication     : Starting ProjectManagementApplication using Java 11.0.10 on DESKTOP-U6AD8VU with PID 2300 (F:\Java\spring_workspace\project-management\target\classes started by pc in F:\Java\spring_workspace\project-management)
+21-42-31 DEBUG 2300 --- [restartedMain] m.u.e.p.ProjectManagementApplication     : Running with Spring Boot v2.4.2, Spring v5.3.3
+21-42-31  INFO 2300 --- [restartedMain] m.u.e.p.ProjectManagementApplication     : The following profiles are active: dev
+21-42-31  INFO 2300 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+21-42-31  INFO 2300 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 2 JPA repository interfaces.
+21-42-31  INFO 2300 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+21-42-31  INFO 2300 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 276 ms
+21-42-31  INFO 2300 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+21-42-31  INFO 2300 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+21-42-31  INFO 2300 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+21-42-31  WARN 2300 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+21-42-31  INFO 2300 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@64776242, org.springframework.security.web.context.SecurityContextPersistenceFilter@76164137, org.springframework.security.web.header.HeaderWriterFilter@45db0cd3, org.springframework.security.web.csrf.CsrfFilter@2d66f09b, org.springframework.security.web.authentication.logout.LogoutFilter@5e73ad33, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@7b7ab241, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@6e55061, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@7194eabe, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@303ea55, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1ea3d372, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@483bf023, org.springframework.security.web.session.SessionManagementFilter@6c6e8609, org.springframework.security.web.access.ExceptionTranslationFilter@2e8b7d75, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6c7ea2d]
+21-42-31  INFO 2300 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+21-42-31  INFO 2300 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+21-42-31  INFO 2300 --- [restartedMain] m.u.e.p.ProjectManagementApplication     : Started ProjectManagementApplication in 0.601 seconds (JVM running for 905.105)
+21-42-31  INFO 2300 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+21-42-31  INFO 2300 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+21-42-31  INFO 2300 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+21-42-31 DEBUG 2300 --- [http-nio-8080-exec-1] m.u.e.p.logging.ApplicationLoggerAspect  :  
+
+
+ 
+21-42-31 DEBUG 2300 --- [http-nio-8080-exec-1] m.u.e.p.logging.ApplicationLoggerAspect  : *************** Before Method Execution **************** 
+ ma.usf.examples.projectmanagement.controllers.HomeController.displayHome with arguments[s] = [{}]
+21-42-31 DEBUG 2300 --- [http-nio-8080-exec-1] m.u.e.p.logging.ApplicationLoggerAspect  :  ----------------------------------- 
+
+
+ 
+21-42-31 DEBUG 2300 --- [http-nio-8080-exec-1] m.u.e.p.logging.ApplicationLoggerAspect  :  
+
+
+ 
+21-42-31 DEBUG 2300 --- [http-nio-8080-exec-1] m.u.e.p.logging.ApplicationLoggerAspect  : *************** After Method Execution **************** 
+ ma.usf.examples.projectmanagement.controllers.HomeController.displayHome with arguments[s] = [{projects=[], employees=[], projectStatusCount=[]}]
+21-42-31 DEBUG 2300 --- [http-nio-8080-exec-1] m.u.e.p.logging.ApplicationLoggerAspect  :  ----------------------------------- 
+
+
+ 
+21-43-31 DEBUG 2300 --- [http-nio-8080-exec-7] m.u.e.p.logging.ApplicationLoggerAspect  :  
+
+
+ 
+21-43-31 DEBUG 2300 --- [http-nio-8080-exec-7] m.u.e.p.logging.ApplicationLoggerAspect  : *************** Before Method Execution **************** 
+ ma.usf.examples.projectmanagement.controllers.HomeController.displayHome with arguments[s] = [{}]
+21-43-31 DEBUG 2300 --- [http-nio-8080-exec-7] m.u.e.p.logging.ApplicationLoggerAspect  :  ----------------------------------- 
+
+
+ 
+21-43-31 DEBUG 2300 --- [http-nio-8080-exec-7] m.u.e.p.logging.ApplicationLoggerAspect  :  
+
+
+ 
+21-43-31 DEBUG 2300 --- [http-nio-8080-exec-7] m.u.e.p.logging.ApplicationLoggerAspect  : *************** After Method Execution **************** 
+ ma.usf.examples.projectmanagement.controllers.HomeController.displayHome with arguments[s] = [{projects=[], employees=[], projectStatusCount=[]}]
+21-43-31 DEBUG 2300 --- [http-nio-8080-exec-7] m.u.e.p.logging.ApplicationLoggerAspect  :  ----------------------------------- 
+
+
+ 
+21-43-31 DEBUG 2300 --- [http-nio-8080-exec-9] m.u.e.p.logging.ApplicationLoggerAspect  :  
+
+
+ 
+21-43-31 DEBUG 2300 --- [http-nio-8080-exec-9] m.u.e.p.logging.ApplicationLoggerAspect  : *************** Before Method Execution **************** 
+ ma.usf.examples.projectmanagement.controllers.ProjectController.displayProjects with arguments[s] = [{}]
+21-43-31 DEBUG 2300 --- [http-nio-8080-exec-9] m.u.e.p.logging.ApplicationLoggerAspect  :  ----------------------------------- 
+
+
+ 
+21-43-31 DEBUG 2300 --- [http-nio-8080-exec-9] m.u.e.p.logging.ApplicationLoggerAspect  :  
+
+
+ 
+21-43-31 DEBUG 2300 --- [http-nio-8080-exec-9] m.u.e.p.logging.ApplicationLoggerAspect  : *************** After Method Execution **************** 
+ ma.usf.examples.projectmanagement.controllers.ProjectController.displayProjects with arguments[s] = [{projects=[]}]
+21-43-31 DEBUG 2300 --- [http-nio-8080-exec-9] m.u.e.p.logging.ApplicationLoggerAspect  :  ----------------------------------- 
+
+
+ 
+21-43-31 DEBUG 2300 --- [http-nio-8080-exec-10] m.u.e.p.logging.ApplicationLoggerAspect  :  
+
+
+ 
+21-43-31 DEBUG 2300 --- [http-nio-8080-exec-10] m.u.e.p.logging.ApplicationLoggerAspect  : *************** Before Method Execution **************** 
+ ma.usf.examples.projectmanagement.controllers.ProjectController.displayProjectForm with arguments[s] = [{}]
+21-43-31 DEBUG 2300 --- [http-nio-8080-exec-10] m.u.e.p.logging.ApplicationLoggerAspect  :  ----------------------------------- 
+
+
+ 
+21-43-31 DEBUG 2300 --- [http-nio-8080-exec-10] m.u.e.p.logging.ApplicationLoggerAspect  :  
+
+
+ 
+21-43-31 DEBUG 2300 --- [http-nio-8080-exec-10] m.u.e.p.logging.ApplicationLoggerAspect  : *************** After Method Execution **************** 
+ ma.usf.examples.projectmanagement.controllers.ProjectController.displayProjectForm with arguments[s] = [{project=Project(id=0, name=null, stage=null, description=null, employees=null), allEmployees=[]}]
+21-43-31 DEBUG 2300 --- [http-nio-8080-exec-10] m.u.e.p.logging.ApplicationLoggerAspect  :  ----------------------------------- 
+
+
+ 
+21-43-31 DEBUG 2300 --- [http-nio-8080-exec-1] m.u.e.p.logging.ApplicationLoggerAspect  :  
+
+
+ 
+21-43-31 DEBUG 2300 --- [http-nio-8080-exec-1] m.u.e.p.logging.ApplicationLoggerAspect  : *************** Before Method Execution **************** 
+ ma.usf.examples.projectmanagement.controllers.ProjectController.displayProjectForm with arguments[s] = [{}]
+21-43-31 DEBUG 2300 --- [http-nio-8080-exec-1] m.u.e.p.logging.ApplicationLoggerAspect  :  ----------------------------------- 
+
+
+ 
+21-43-31 DEBUG 2300 --- [http-nio-8080-exec-1] m.u.e.p.logging.ApplicationLoggerAspect  :  
+
+
+ 
+21-43-31 DEBUG 2300 --- [http-nio-8080-exec-1] m.u.e.p.logging.ApplicationLoggerAspect  : *************** After Method Execution **************** 
+ ma.usf.examples.projectmanagement.controllers.ProjectController.displayProjectForm with arguments[s] = [{project=Project(id=0, name=null, stage=null, description=null, employees=null), allEmployees=[]}]
+21-43-31 DEBUG 2300 --- [http-nio-8080-exec-1] m.u.e.p.logging.ApplicationLoggerAspect  :  ----------------------------------- 
+
+
+ 
+21-43-31 DEBUG 2300 --- [http-nio-8080-exec-2] m.u.e.p.logging.ApplicationLoggerAspect  :  
+
+
+ 
+21-43-31 DEBUG 2300 --- [http-nio-8080-exec-2] m.u.e.p.logging.ApplicationLoggerAspect  : *************** Before Method Execution **************** 
+ ma.usf.examples.projectmanagement.controllers.HomeController.displayHome with arguments[s] = [{}]
+21-43-31 DEBUG 2300 --- [http-nio-8080-exec-2] m.u.e.p.logging.ApplicationLoggerAspect  :  ----------------------------------- 
+
+
+ 
+21-43-31 DEBUG 2300 --- [http-nio-8080-exec-2] m.u.e.p.logging.ApplicationLoggerAspect  :  
+
+
+ 
+21-43-31 DEBUG 2300 --- [http-nio-8080-exec-2] m.u.e.p.logging.ApplicationLoggerAspect  : *************** After Method Execution **************** 
+ ma.usf.examples.projectmanagement.controllers.HomeController.displayHome with arguments[s] = [{projects=[], employees=[], projectStatusCount=[]}]
+21-43-31 DEBUG 2300 --- [http-nio-8080-exec-2] m.u.e.p.logging.ApplicationLoggerAspect  :  ----------------------------------- 
+
+
+ 
+21-43-31  INFO 2300 --- [RMI TCP Connection(42)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+21-43-31  INFO 2300 --- [RMI TCP Connection(42)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+21-43-31  INFO 2300 --- [RMI TCP Connection(42)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+21-43-31 ERROR 2300 --- [HikariPool-6 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-6 - Error thrown while acquiring connection from data source
+
+org.h2.jdbc.JdbcSQLNonTransientConnectionException: La base de données est ouverte en mode exclusif; impossible d'ouvrir des connexions additionnelles
+The database is open in exclusive mode; can not open additional connections [90135-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:622) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.message.DbException.get(DbException.java:205) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.message.DbException.get(DbException.java:181) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.message.DbException.get(DbException.java:170) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.engine.Session.checkSuspended(Session.java:1369) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.engine.Session.transitionToState(Session.java:1361) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.engine.Session.waitIfExclusiveModeEnabled(Session.java:1633) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.command.Command.executeQuery(Command.java:186) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.jdbc.JdbcConnection.isReadOnly(JdbcConnection.java:631) ~[h2-1.4.200.jar:1.4.200]
+	at com.zaxxer.hikari.pool.PoolBase.setupConnection(PoolBase.java:402) ~[HikariCP-3.4.5.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:363) ~[HikariCP-3.4.5.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206) ~[HikariCP-3.4.5.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:477) ~[HikariCP-3.4.5.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.access$100(HikariPool.java:71) ~[HikariCP-3.4.5.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:725) ~[HikariCP-3.4.5.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:711) ~[HikariCP-3.4.5.jar:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:834) ~[na:na]
+
+21-43-31  WARN 2300 --- [RMI TCP Connection(42)-127.0.0.1] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: La base de données est déjà fermée (pour désactiver la fermeture automatique à l'arrêt de la VM, ajoutez "; DB_CLOSE_ON_EXIT = FALSE" à l'URL db)
+Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+21-43-31  INFO 14780 --- [restartedMain] m.u.e.p.ProjectManagementApplication     : Starting ProjectManagementApplication using Java 11.0.10 on DESKTOP-U6AD8VU with PID 14780 (F:\Java\spring_workspace\project-management\target\classes started by pc in F:\Java\spring_workspace\project-management)
+21-43-31 DEBUG 14780 --- [restartedMain] m.u.e.p.ProjectManagementApplication     : Running with Spring Boot v2.4.2, Spring v5.3.3
+21-43-31  INFO 14780 --- [restartedMain] m.u.e.p.ProjectManagementApplication     : The following profiles are active: dev
+21-43-31  INFO 14780 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+21-43-31  INFO 14780 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+21-43-31  INFO 14780 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+21-43-31  INFO 14780 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 40 ms. Found 2 JPA repository interfaces.
+21-43-31  INFO 14780 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+21-43-31  INFO 14780 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1416 ms
+21-43-31  INFO 14780 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+21-43-31  INFO 14780 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+21-43-31  INFO 14780 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+21-43-31  WARN 14780 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+21-43-31  INFO 14780 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3670a574, org.springframework.security.web.context.SecurityContextPersistenceFilter@2fdad8d5, org.springframework.security.web.header.HeaderWriterFilter@7dcb15fe, org.springframework.security.web.csrf.CsrfFilter@5d41e2b0, org.springframework.security.web.authentication.logout.LogoutFilter@715797d0, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@77b71e33, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@543f4851, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@5f4f2361, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3068a9a5, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@79653ea2, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@60b58af0, org.springframework.security.web.session.SessionManagementFilter@54de5090, org.springframework.security.web.access.ExceptionTranslationFilter@5058a790, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3820fb88]
+21-43-31  INFO 14780 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+21-43-31  INFO 14780 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+21-43-31  INFO 14780 --- [restartedMain] m.u.e.p.ProjectManagementApplication     : Started ProjectManagementApplication in 4.224 seconds (JVM running for 5.247)
+21-43-31  INFO 14780 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+21-43-31  INFO 14780 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+21-43-31 DEBUG 14780 --- [http-nio-8080-exec-1] m.u.e.p.logging.ApplicationLoggerAspect  :  
+
+
+ 
+21-43-31 DEBUG 14780 --- [http-nio-8080-exec-1] m.u.e.p.logging.ApplicationLoggerAspect  : *************** Before Method Execution **************** 
+ ma.usf.examples.projectmanagement.controllers.HomeController.displayHome with arguments[s] = [{}]
+21-43-31 DEBUG 14780 --- [http-nio-8080-exec-1] m.u.e.p.logging.ApplicationLoggerAspect  :  ----------------------------------- 
+
+
+ 
+21-43-31 DEBUG 14780 --- [http-nio-8080-exec-1] m.u.e.p.logging.ApplicationLoggerAspect  :  
+
+
+ 
+21-43-31 DEBUG 14780 --- [http-nio-8080-exec-1] m.u.e.p.logging.ApplicationLoggerAspect  : *************** After Method Execution **************** 
+ ma.usf.examples.projectmanagement.controllers.HomeController.displayHome with arguments[s] = [{projects=[], employees=[], projectStatusCount=[]}]
+21-43-31 DEBUG 14780 --- [http-nio-8080-exec-1] m.u.e.p.logging.ApplicationLoggerAspect  :  ----------------------------------- 
+
+
+ 
+21-43-31 DEBUG 14780 --- [http-nio-8080-exec-3] m.u.e.p.logging.ApplicationLoggerAspect  :  
+
+
+ 
+21-43-31 DEBUG 14780 --- [http-nio-8080-exec-3] m.u.e.p.logging.ApplicationLoggerAspect  : *************** Before Method Execution **************** 
+ ma.usf.examples.projectmanagement.controllers.HomeController.displayHome with arguments[s] = [{}]
+21-43-31 DEBUG 14780 --- [http-nio-8080-exec-3] m.u.e.p.logging.ApplicationLoggerAspect  :  ----------------------------------- 
+
+
+ 
+21-43-31 DEBUG 14780 --- [http-nio-8080-exec-3] m.u.e.p.logging.ApplicationLoggerAspect  :  
+
+
+ 
+21-43-31 DEBUG 14780 --- [http-nio-8080-exec-3] m.u.e.p.logging.ApplicationLoggerAspect  : *************** After Method Execution **************** 
+ ma.usf.examples.projectmanagement.controllers.HomeController.displayHome with arguments[s] = [{projects=[], employees=[], projectStatusCount=[]}]
+21-43-31 DEBUG 14780 --- [http-nio-8080-exec-3] m.u.e.p.logging.ApplicationLoggerAspect  :  ----------------------------------- 
+
+
+ 
+21-44-31  WARN 14780 --- [http-nio-8080-exec-7] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [254] milliseconds.
+21-44-31 DEBUG 14780 --- [http-nio-8080-exec-9] m.u.e.p.logging.ApplicationLoggerAspect  :  
+
+
+ 
+21-44-31 DEBUG 14780 --- [http-nio-8080-exec-9] m.u.e.p.logging.ApplicationLoggerAspect  : *************** Before Method Execution **************** 
+ ma.usf.examples.projectmanagement.controllers.HomeController.displayHome with arguments[s] = [{}]
+21-44-31 DEBUG 14780 --- [http-nio-8080-exec-9] m.u.e.p.logging.ApplicationLoggerAspect  :  ----------------------------------- 
+
+
+ 
+21-44-31 DEBUG 14780 --- [http-nio-8080-exec-9] m.u.e.p.logging.ApplicationLoggerAspect  :  
+
+
+ 
+21-44-31 DEBUG 14780 --- [http-nio-8080-exec-9] m.u.e.p.logging.ApplicationLoggerAspect  : *************** After Method Execution **************** 
+ ma.usf.examples.projectmanagement.controllers.HomeController.displayHome with arguments[s] = [{projects=[], employees=[], projectStatusCount=[]}]
+21-44-31 DEBUG 14780 --- [http-nio-8080-exec-9] m.u.e.p.logging.ApplicationLoggerAspect  :  ----------------------------------- 
+
+
+ 
+21-44-31 DEBUG 14780 --- [http-nio-8080-exec-1] m.u.e.p.logging.ApplicationLoggerAspect  :  
+
+
+ 
+21-44-31 DEBUG 14780 --- [http-nio-8080-exec-1] m.u.e.p.logging.ApplicationLoggerAspect  : *************** Before Method Execution **************** 
+ ma.usf.examples.projectmanagement.controllers.ProjectController.displayProjects with arguments[s] = [{}]
+21-44-31 DEBUG 14780 --- [http-nio-8080-exec-1] m.u.e.p.logging.ApplicationLoggerAspect  :  ----------------------------------- 
+
+
+ 
+21-44-31 DEBUG 14780 --- [http-nio-8080-exec-1] m.u.e.p.logging.ApplicationLoggerAspect  :  
+
+
+ 
+21-44-31 DEBUG 14780 --- [http-nio-8080-exec-1] m.u.e.p.logging.ApplicationLoggerAspect  : *************** After Method Execution **************** 
+ ma.usf.examples.projectmanagement.controllers.ProjectController.displayProjects with arguments[s] = [{projects=[]}]
+21-44-31 DEBUG 14780 --- [http-nio-8080-exec-1] m.u.e.p.logging.ApplicationLoggerAspect  :  ----------------------------------- 
+
+
+ 
+21-44-31 DEBUG 14780 --- [http-nio-8080-exec-2] m.u.e.p.logging.ApplicationLoggerAspect  :  
+
+
+ 
+21-44-31 DEBUG 14780 --- [http-nio-8080-exec-2] m.u.e.p.logging.ApplicationLoggerAspect  : *************** Before Method Execution **************** 
+ ma.usf.examples.projectmanagement.controllers.ProjectController.displayProjectForm with arguments[s] = [{}]
+21-44-31 DEBUG 14780 --- [http-nio-8080-exec-2] m.u.e.p.logging.ApplicationLoggerAspect  :  ----------------------------------- 
+
+
+ 
+21-44-31 DEBUG 14780 --- [http-nio-8080-exec-2] m.u.e.p.logging.ApplicationLoggerAspect  :  
+
+
+ 
+21-44-31 DEBUG 14780 --- [http-nio-8080-exec-2] m.u.e.p.logging.ApplicationLoggerAspect  : *************** After Method Execution **************** 
+ ma.usf.examples.projectmanagement.controllers.ProjectController.displayProjectForm with arguments[s] = [{project=Project(id=0, name=null, stage=null, description=null, employees=null), allEmployees=[]}]
+21-44-31 DEBUG 14780 --- [http-nio-8080-exec-2] m.u.e.p.logging.ApplicationLoggerAspect  :  ----------------------------------- 
+
+
+ 
+21-44-31  INFO 14780 --- [Thread-5] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+21-44-31  INFO 14780 --- [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+21-44-31  WARN 14780 --- [Thread-5] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: La base de données est déjà fermée (pour désactiver la fermeture automatique à l'arrêt de la VM, ajoutez "; DB_CLOSE_ON_EXIT = FALSE" à l'URL db)
+Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+21-44-31  INFO 14780 --- [restartedMain] m.u.e.p.ProjectManagementApplication     : Starting ProjectManagementApplication using Java 11.0.10 on DESKTOP-U6AD8VU with PID 14780 (F:\Java\spring_workspace\project-management\target\classes started by pc in F:\Java\spring_workspace\project-management)
+21-44-31 DEBUG 14780 --- [restartedMain] m.u.e.p.ProjectManagementApplication     : Running with Spring Boot v2.4.2, Spring v5.3.3
+21-44-31  INFO 14780 --- [restartedMain] m.u.e.p.ProjectManagementApplication     : The following profiles are active: dev
+21-44-31  INFO 14780 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+21-44-31  INFO 14780 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10 ms. Found 2 JPA repository interfaces.
+21-44-31  INFO 14780 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+21-44-31  INFO 14780 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 392 ms
+21-44-31  INFO 14780 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+21-44-31  INFO 14780 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+21-44-31  INFO 14780 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+21-44-31  WARN 14780 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+21-44-31  INFO 14780 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@73ba7480, org.springframework.security.web.context.SecurityContextPersistenceFilter@781d81bf, org.springframework.security.web.header.HeaderWriterFilter@7e1dff84, org.springframework.security.web.csrf.CsrfFilter@3692f7e4, org.springframework.security.web.authentication.logout.LogoutFilter@2f55419a, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@2b925908, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@61993f7b, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@483f26ea, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@222f07a0, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@33df2dbe, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3567cc19, org.springframework.security.web.session.SessionManagementFilter@591160ae, org.springframework.security.web.access.ExceptionTranslationFilter@66a799ed, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5b14c622]
+21-44-31  INFO 14780 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+21-44-31  INFO 14780 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+21-44-31  INFO 14780 --- [restartedMain] m.u.e.p.ProjectManagementApplication     : Started ProjectManagementApplication in 0.765 seconds (JVM running for 60.12)
+21-44-31  INFO 14780 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+21-44-31  INFO 14780 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+21-44-31  INFO 14780 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+21-45-31 DEBUG 14780 --- [http-nio-8080-exec-2] m.u.e.p.logging.ApplicationLoggerAspect  :  
+
+
+ 
+21-45-31 DEBUG 14780 --- [http-nio-8080-exec-2] m.u.e.p.logging.ApplicationLoggerAspect  : *************** Before Method Execution **************** 
+ ma.usf.examples.projectmanagement.controllers.HomeController.displayHome with arguments[s] = [{}]
+21-45-31 DEBUG 14780 --- [http-nio-8080-exec-2] m.u.e.p.logging.ApplicationLoggerAspect  :  ----------------------------------- 
+
+
+ 
+21-45-31 DEBUG 14780 --- [http-nio-8080-exec-2] m.u.e.p.logging.ApplicationLoggerAspect  :  
+
+
+ 
+21-45-31 DEBUG 14780 --- [http-nio-8080-exec-2] m.u.e.p.logging.ApplicationLoggerAspect  : *************** After Method Execution **************** 
+ ma.usf.examples.projectmanagement.controllers.HomeController.displayHome with arguments[s] = [{projects=[], employees=[], projectStatusCount=[]}]
+21-45-31 DEBUG 14780 --- [http-nio-8080-exec-2] m.u.e.p.logging.ApplicationLoggerAspect  :  ----------------------------------- 
+
+
+ 
+21-45-31 DEBUG 14780 --- [http-nio-8080-exec-3] m.u.e.p.logging.ApplicationLoggerAspect  :  
+
+
+ 
+21-45-31 DEBUG 14780 --- [http-nio-8080-exec-3] m.u.e.p.logging.ApplicationLoggerAspect  : *************** Before Method Execution **************** 
+ ma.usf.examples.projectmanagement.controllers.EmployeeController.displayEmployees with arguments[s] = [{}]
+21-45-31 DEBUG 14780 --- [http-nio-8080-exec-3] m.u.e.p.logging.ApplicationLoggerAspect  :  ----------------------------------- 
+
+
+ 
+21-45-31 DEBUG 14780 --- [http-nio-8080-exec-3] m.u.e.p.logging.ApplicationLoggerAspect  :  
+
+
+ 
+21-45-31 DEBUG 14780 --- [http-nio-8080-exec-3] m.u.e.p.logging.ApplicationLoggerAspect  : *************** After Method Execution **************** 
+ ma.usf.examples.projectmanagement.controllers.EmployeeController.displayEmployees with arguments[s] = [{employees=[]}]
+21-45-31 DEBUG 14780 --- [http-nio-8080-exec-3] m.u.e.p.logging.ApplicationLoggerAspect  :  ----------------------------------- 
+
+
+ 
+21-45-31 DEBUG 14780 --- [http-nio-8080-exec-5] m.u.e.p.logging.ApplicationLoggerAspect  :  
+
+
+ 
+21-45-31 DEBUG 14780 --- [http-nio-8080-exec-5] m.u.e.p.logging.ApplicationLoggerAspect  : *************** Before Method Execution **************** 
+ ma.usf.examples.projectmanagement.controllers.EmployeeController.displayEmployeeForm with arguments[s] = [{}]
+21-45-31 DEBUG 14780 --- [http-nio-8080-exec-5] m.u.e.p.logging.ApplicationLoggerAspect  :  ----------------------------------- 
+
+
+ 
+21-45-31 DEBUG 14780 --- [http-nio-8080-exec-5] m.u.e.p.logging.ApplicationLoggerAspect  :  
+
+
+ 
+21-45-31 DEBUG 14780 --- [http-nio-8080-exec-5] m.u.e.p.logging.ApplicationLoggerAspect  : *************** After Method Execution **************** 
+ ma.usf.examples.projectmanagement.controllers.EmployeeController.displayEmployeeForm with arguments[s] = [{employee=Employee(id=0, firstName=null, lastName=null, email=null, projects=null)}]
+21-45-31 DEBUG 14780 --- [http-nio-8080-exec-5] m.u.e.p.logging.ApplicationLoggerAspect  :  ----------------------------------- 
+
+
+ 
+21-45-31 DEBUG 14780 --- [http-nio-8080-exec-10] m.u.e.p.logging.ApplicationLoggerAspect  :  
+
+
+ 
+21-45-31 DEBUG 14780 --- [http-nio-8080-exec-10] m.u.e.p.logging.ApplicationLoggerAspect  : *************** Before Method Execution **************** 
+ ma.usf.examples.projectmanagement.controllers.HomeController.displayHome with arguments[s] = [{}]
+21-45-31 DEBUG 14780 --- [http-nio-8080-exec-10] m.u.e.p.logging.ApplicationLoggerAspect  :  ----------------------------------- 
+
+
+ 
+21-45-31 DEBUG 14780 --- [http-nio-8080-exec-10] m.u.e.p.logging.ApplicationLoggerAspect  :  
+
+
+ 
+21-45-31 DEBUG 14780 --- [http-nio-8080-exec-10] m.u.e.p.logging.ApplicationLoggerAspect  : *************** After Method Execution **************** 
+ ma.usf.examples.projectmanagement.controllers.HomeController.displayHome with arguments[s] = [{projects=[], employees=[], projectStatusCount=[]}]
+21-45-31 DEBUG 14780 --- [http-nio-8080-exec-10] m.u.e.p.logging.ApplicationLoggerAspect  :  ----------------------------------- 
+
+
+ 
+21-45-31 DEBUG 14780 --- [http-nio-8080-exec-2] m.u.e.p.logging.ApplicationLoggerAspect  :  
+
+
+ 
+21-45-31 DEBUG 14780 --- [http-nio-8080-exec-2] m.u.e.p.logging.ApplicationLoggerAspect  : *************** Before Method Execution **************** 
+ ma.usf.examples.projectmanagement.controllers.EmployeeController.displayEmployees with arguments[s] = [{}]
+21-45-31 DEBUG 14780 --- [http-nio-8080-exec-2] m.u.e.p.logging.ApplicationLoggerAspect  :  ----------------------------------- 
+
+
+ 
+21-45-31 DEBUG 14780 --- [http-nio-8080-exec-2] m.u.e.p.logging.ApplicationLoggerAspect  :  
+
+
+ 
+21-45-31 DEBUG 14780 --- [http-nio-8080-exec-2] m.u.e.p.logging.ApplicationLoggerAspect  : *************** After Method Execution **************** 
+ ma.usf.examples.projectmanagement.controllers.EmployeeController.displayEmployees with arguments[s] = [{employees=[]}]
+21-45-31 DEBUG 14780 --- [http-nio-8080-exec-2] m.u.e.p.logging.ApplicationLoggerAspect  :  ----------------------------------- 
+
+
+ 
+21-45-31 DEBUG 14780 --- [http-nio-8080-exec-4] m.u.e.p.logging.ApplicationLoggerAspect  :  
+
+
+ 
+21-45-31 DEBUG 14780 --- [http-nio-8080-exec-4] m.u.e.p.logging.ApplicationLoggerAspect  : *************** Before Method Execution **************** 
+ ma.usf.examples.projectmanagement.controllers.EmployeeController.displayEmployeeForm with arguments[s] = [{}]
+21-45-31 DEBUG 14780 --- [http-nio-8080-exec-4] m.u.e.p.logging.ApplicationLoggerAspect  :  ----------------------------------- 
+
+
+ 
+21-45-31 DEBUG 14780 --- [http-nio-8080-exec-4] m.u.e.p.logging.ApplicationLoggerAspect  :  
+
+
+ 
+21-45-31 DEBUG 14780 --- [http-nio-8080-exec-4] m.u.e.p.logging.ApplicationLoggerAspect  : *************** After Method Execution **************** 
+ ma.usf.examples.projectmanagement.controllers.EmployeeController.displayEmployeeForm with arguments[s] = [{employee=Employee(id=0, firstName=null, lastName=null, email=null, projects=null)}]
+21-45-31 DEBUG 14780 --- [http-nio-8080-exec-4] m.u.e.p.logging.ApplicationLoggerAspect  :  ----------------------------------- 
+
+
+ 
+21-45-31 DEBUG 14780 --- [http-nio-8080-exec-3] m.u.e.p.logging.ApplicationLoggerAspect  :  
+
+
+ 
+21-45-31 DEBUG 14780 --- [http-nio-8080-exec-3] m.u.e.p.logging.ApplicationLoggerAspect  : *************** Before Method Execution **************** 
+ ma.usf.examples.projectmanagement.controllers.ProjectController.displayProjects with arguments[s] = [{}]
+21-45-31 DEBUG 14780 --- [http-nio-8080-exec-3] m.u.e.p.logging.ApplicationLoggerAspect  :  ----------------------------------- 
+
+
+ 
+21-45-31 DEBUG 14780 --- [http-nio-8080-exec-3] m.u.e.p.logging.ApplicationLoggerAspect  :  
+
+
+ 
+21-45-31 DEBUG 14780 --- [http-nio-8080-exec-3] m.u.e.p.logging.ApplicationLoggerAspect  : *************** After Method Execution **************** 
+ ma.usf.examples.projectmanagement.controllers.ProjectController.displayProjects with arguments[s] = [{projects=[]}]
+21-45-31 DEBUG 14780 --- [http-nio-8080-exec-3] m.u.e.p.logging.ApplicationLoggerAspect  :  ----------------------------------- 
+
+
+ 
+21-45-31 DEBUG 14780 --- [http-nio-8080-exec-5] m.u.e.p.logging.ApplicationLoggerAspect  :  
+
+
+ 
+21-45-31 DEBUG 14780 --- [http-nio-8080-exec-5] m.u.e.p.logging.ApplicationLoggerAspect  : *************** Before Method Execution **************** 
+ ma.usf.examples.projectmanagement.controllers.ProjectController.displayProjectForm with arguments[s] = [{}]
+21-45-31 DEBUG 14780 --- [http-nio-8080-exec-5] m.u.e.p.logging.ApplicationLoggerAspect  :  ----------------------------------- 
+
+
+ 
+21-45-31 DEBUG 14780 --- [http-nio-8080-exec-5] m.u.e.p.logging.ApplicationLoggerAspect  :  
+
+
+ 
+21-45-31 DEBUG 14780 --- [http-nio-8080-exec-5] m.u.e.p.logging.ApplicationLoggerAspect  : *************** After Method Execution **************** 
+ ma.usf.examples.projectmanagement.controllers.ProjectController.displayProjectForm with arguments[s] = [{project=Project(id=0, name=null, stage=null, description=null, employees=null), allEmployees=[]}]
+21-45-31 DEBUG 14780 --- [http-nio-8080-exec-5] m.u.e.p.logging.ApplicationLoggerAspect  :  ----------------------------------- 
+
+
+ 
+21-46-31 DEBUG 14780 --- [http-nio-8080-exec-6] m.u.e.p.logging.ApplicationLoggerAspect  :  
+
+
+ 
+21-46-31 DEBUG 14780 --- [http-nio-8080-exec-6] m.u.e.p.logging.ApplicationLoggerAspect  : *************** Before Method Execution **************** 
+ ma.usf.examples.projectmanagement.controllers.EmployeeController.displayEmployees with arguments[s] = [{}]
+21-46-31 DEBUG 14780 --- [http-nio-8080-exec-6] m.u.e.p.logging.ApplicationLoggerAspect  :  ----------------------------------- 
+
+
+ 
+21-46-31 DEBUG 14780 --- [http-nio-8080-exec-6] m.u.e.p.logging.ApplicationLoggerAspect  :  
+
+
+ 
+21-46-31 DEBUG 14780 --- [http-nio-8080-exec-6] m.u.e.p.logging.ApplicationLoggerAspect  : *************** After Method Execution **************** 
+ ma.usf.examples.projectmanagement.controllers.EmployeeController.displayEmployees with arguments[s] = [{employees=[]}]
+21-46-31 DEBUG 14780 --- [http-nio-8080-exec-6] m.u.e.p.logging.ApplicationLoggerAspect  :  ----------------------------------- 
+
+
+ 
+21-46-31 DEBUG 14780 --- [http-nio-8080-exec-7] m.u.e.p.logging.ApplicationLoggerAspect  :  
+
+
+ 
+21-46-31 DEBUG 14780 --- [http-nio-8080-exec-7] m.u.e.p.logging.ApplicationLoggerAspect  : *************** Before Method Execution **************** 
+ ma.usf.examples.projectmanagement.controllers.EmployeeController.displayEmployeeForm with arguments[s] = [{}]
+21-46-31 DEBUG 14780 --- [http-nio-8080-exec-7] m.u.e.p.logging.ApplicationLoggerAspect  :  ----------------------------------- 
+
+
+ 
+21-46-31 DEBUG 14780 --- [http-nio-8080-exec-7] m.u.e.p.logging.ApplicationLoggerAspect  :  
+
+
+ 
+21-46-31 DEBUG 14780 --- [http-nio-8080-exec-7] m.u.e.p.logging.ApplicationLoggerAspect  : *************** After Method Execution **************** 
+ ma.usf.examples.projectmanagement.controllers.EmployeeController.displayEmployeeForm with arguments[s] = [{employee=Employee(id=0, firstName=null, lastName=null, email=null, projects=null)}]
+21-46-31 DEBUG 14780 --- [http-nio-8080-exec-7] m.u.e.p.logging.ApplicationLoggerAspect  :  ----------------------------------- 
+
+
+ 
+21-46-31  INFO 14780 --- [Thread-9] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+21-46-31  INFO 14780 --- [Thread-9] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+21-46-31  WARN 14780 --- [Thread-9] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: La base de données est déjà fermée (pour désactiver la fermeture automatique à l'arrêt de la VM, ajoutez "; DB_CLOSE_ON_EXIT = FALSE" à l'URL db)
+Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+21-46-31  INFO 14780 --- [restartedMain] m.u.e.p.ProjectManagementApplication     : Starting ProjectManagementApplication using Java 11.0.10 on DESKTOP-U6AD8VU with PID 14780 (F:\Java\spring_workspace\project-management\target\classes started by pc in F:\Java\spring_workspace\project-management)
+21-46-31 DEBUG 14780 --- [restartedMain] m.u.e.p.ProjectManagementApplication     : Running with Spring Boot v2.4.2, Spring v5.3.3
+21-46-31  INFO 14780 --- [restartedMain] m.u.e.p.ProjectManagementApplication     : The following profiles are active: dev
+21-46-31  INFO 14780 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+21-46-31  INFO 14780 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 2 JPA repository interfaces.
+21-46-31  INFO 14780 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+21-46-31  INFO 14780 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 281 ms
+21-46-31  INFO 14780 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+21-46-31  INFO 14780 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+21-46-31  INFO 14780 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+21-46-31  WARN 14780 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+21-46-31  INFO 14780 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@cc53b5c, org.springframework.security.web.context.SecurityContextPersistenceFilter@3bf7816c, org.springframework.security.web.header.HeaderWriterFilter@bc632aa, org.springframework.security.web.csrf.CsrfFilter@1af4d440, org.springframework.security.web.authentication.logout.LogoutFilter@77e87695, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@fcafc48, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@7787daa5, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@5928ac48, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2284b2e0, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@186d8778, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3c4c0c84, org.springframework.security.web.session.SessionManagementFilter@71d131b, org.springframework.security.web.access.ExceptionTranslationFilter@609f3eac, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7c132253]
+21-46-31  INFO 14780 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+21-46-31  INFO 14780 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+21-46-31  INFO 14780 --- [restartedMain] m.u.e.p.ProjectManagementApplication     : Started ProjectManagementApplication in 0.624 seconds (JVM running for 188.728)
+21-46-31  INFO 14780 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
