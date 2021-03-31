@@ -1,0 +1,56 @@
+21-58-31  INFO 4068 --- [restartedMain] m.u.e.p.ProjectManagementApplication     : Starting ProjectManagementApplication using Java 11.0.10 on DESKTOP-U6AD8VU with PID 4068 (F:\Java\spring_workspace\project-management\target\classes started by pc in F:\Java\spring_workspace\project-management)
+21-58-31 DEBUG 4068 --- [restartedMain] m.u.e.p.ProjectManagementApplication     : Running with Spring Boot v2.4.2, Spring v5.3.3
+21-58-31  INFO 4068 --- [restartedMain] m.u.e.p.ProjectManagementApplication     : The following profiles are active: dev
+21-58-31  INFO 4068 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+21-58-31  INFO 4068 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7 ms. Found 2 JPA repository interfaces.
+21-58-31  INFO 4068 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+21-58-31  INFO 4068 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 290 ms
+21-58-31  INFO 4068 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+21-58-31  INFO 4068 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+21-58-31  INFO 4068 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+21-58-31  WARN 4068 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+21-58-31  INFO 4068 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+21-58-31  INFO 4068 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+21-58-31  INFO 4068 --- [restartedMain] m.u.e.p.ProjectManagementApplication     : Started ProjectManagementApplication in 0.638 seconds (JVM running for 2168.51)
+21-58-31  INFO 4068 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+21-58-31  INFO 4068 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+21-58-31  INFO 4068 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+21-58-31 DEBUG 4068 --- [http-nio-8080-exec-1] m.u.e.p.logging.ApplicationLoggerAspect  :  
+
+
+ 
+21-58-31 DEBUG 4068 --- [http-nio-8080-exec-1] m.u.e.p.logging.ApplicationLoggerAspect  : *************** Before Method Execution **************** 
+ ma.usf.examples.projectmanagement.controllers.HomeController.displayHome with arguments[s] = [{}]
+21-58-31 DEBUG 4068 --- [http-nio-8080-exec-1] m.u.e.p.logging.ApplicationLoggerAspect  :  ----------------------------------- 
+
+
+ 
+21-58-31 DEBUG 4068 --- [http-nio-8080-exec-1] m.u.e.p.logging.ApplicationLoggerAspect  :  
+
+
+ 
+21-58-31 DEBUG 4068 --- [http-nio-8080-exec-1] m.u.e.p.logging.ApplicationLoggerAspect  : *************** After Method Execution **************** 
+ ma.usf.examples.projectmanagement.controllers.HomeController.displayHome with arguments[s] = [{projects=[], employees=[], projectStatusCount=[]}]
+21-58-31 DEBUG 4068 --- [http-nio-8080-exec-1] m.u.e.p.logging.ApplicationLoggerAspect  :  ----------------------------------- 
+
+
+ 
+21-03-31  INFO 4068 --- [Thread-54] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+21-03-31  INFO 4068 --- [Thread-54] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+21-03-31  WARN 4068 --- [Thread-54] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: La base de données est déjà fermée (pour désactiver la fermeture automatique à l'arrêt de la VM, ajoutez "; DB_CLOSE_ON_EXIT = FALSE" à l'URL db)
+Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+21-03-31  INFO 4068 --- [restartedMain] m.u.e.p.ProjectManagementApplication     : Starting ProjectManagementApplication using Java 11.0.10 on DESKTOP-U6AD8VU with PID 4068 (F:\Java\spring_workspace\project-management\target\classes started by pc in F:\Java\spring_workspace\project-management)
+21-03-31 DEBUG 4068 --- [restartedMain] m.u.e.p.ProjectManagementApplication     : Running with Spring Boot v2.4.2, Spring v5.3.3
+21-03-31  INFO 4068 --- [restartedMain] m.u.e.p.ProjectManagementApplication     : The following profiles are active: dev
+21-03-31  INFO 4068 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+21-03-31  INFO 4068 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 2 JPA repository interfaces.
+21-03-31  INFO 4068 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+21-03-31  INFO 4068 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 332 ms
+21-03-31  INFO 4068 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+21-03-31  INFO 4068 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+21-03-31  INFO 4068 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+21-03-31  WARN 4068 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+21-03-31  INFO 4068 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+21-03-31  INFO 4068 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+21-03-31  INFO 4068 --- [restartedMain] m.u.e.p.ProjectManagementApplication     : Started ProjectManagementApplication in 0.664 seconds (JVM running for 2490.082)
+21-03-31  INFO 4068 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
