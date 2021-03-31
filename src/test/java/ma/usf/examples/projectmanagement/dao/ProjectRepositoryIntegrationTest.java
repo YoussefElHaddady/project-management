@@ -1,5 +1,4 @@
-//package ma.usf.examples.dao;
-package ma.usf.examples.projectmanagement;
+package ma.usf.examples.projectmanagement.dao;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
@@ -9,7 +8,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit.jupiter.SpringExtension;
 
-import ma.usf.examples.projectmanagement.dao.ProjectRepository;
 import ma.usf.examples.projectmanagement.entities.Project;
 
 //@ContextConfiguration(classes = ProjectManagementApplication.class)

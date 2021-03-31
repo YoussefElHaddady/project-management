@@ -1,4 +1,4 @@
-package ma.usf.examples.projectmanagement.dao;
+package ma.usf.examples.projectmanagement;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
