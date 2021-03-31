@@ -10,27 +10,27 @@ import org.springframework.web.bind.annotation.GetMapping;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
-import ma.usf.examples.projectmanagement.dao.EmployeeRepository;
-import ma.usf.examples.projectmanagement.dao.ProjectRepository;
 import ma.usf.examples.projectmanagement.dto.ChartData;
 import ma.usf.examples.projectmanagement.dto.EmployeeProject;
 import ma.usf.examples.projectmanagement.entities.Project;
+import ma.usf.examples.projectmanagement.services.EmployeeService;
+import ma.usf.examples.projectmanagement.services.ProjectService;
 
 @Controller
 public class HomeController {
 
 	@Autowired
-	ProjectRepository proRepo;
+	ProjectService projectService;
 
 	@Autowired
-	EmployeeRepository empRepo;
+	EmployeeService employeeService;
 
 	@GetMapping("/")
 	public String displayHome(Model model) throws JsonProcessingException {
 
-		List<Project> projects = proRepo.findAll();
-		List<EmployeeProject> employeesProjectCount = empRepo.employeeProjects();
-		List<ChartData> projectStatus = proRepo.getProjectStatus();
+		List<Project> projects = projectService.getAll();
+		List<EmployeeProject> employeesProjectCount = employeeService.employeeProjects();
+		List<ChartData> projectStatus = projectService.getProjectStatus();
 
 		// Convert projectStatus object into a JSON structure for use in JavaScript
 		ObjectMapper objMapper = new ObjectMapper();
