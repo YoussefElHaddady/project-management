@@ -16,7 +16,7 @@ public class UniqueValidator implements ConstraintValidator<UniqueValue, String>
 	@Override
 	public boolean isValid(String value, ConstraintValidatorContext context) {
 		System.out.println("Entered validation method..");
-		Employee employee = EmployeeService.findByEmail(value);
+		Employee employee = EmployeeService.getByEmail(value);
 
 		return employee == null;
 	}

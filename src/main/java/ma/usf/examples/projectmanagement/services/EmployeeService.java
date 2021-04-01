@@ -3,8 +3,8 @@ package ma.usf.examples.projectmanagement.services;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
-import org.springframework.web.client.ResourceAccessException;
 
 import ma.usf.examples.projectmanagement.dao.EmployeeRepository;
 import ma.usf.examples.projectmanagement.dto.EmployeeProject;
@@ -36,8 +36,12 @@ public class EmployeeService {
 		empRepo.deleteById(id);
 	}
 
-	public Employee findByEmail(String value) {
+	public Employee getByEmail(String value) {
 		return empRepo.findByEmail(value).orElseThrow(NullPointerException::new);
+	}
+
+	public Iterable<Employee> getAll(Pageable pageable) {
+		return empRepo.findAll(pageable);
 	}
 
 }
