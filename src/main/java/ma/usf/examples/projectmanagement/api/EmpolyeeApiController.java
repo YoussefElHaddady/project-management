@@ -2,6 +2,8 @@ package ma.usf.examples.projectmanagement.api;
 
 import java.util.List;
 
+import javax.validation.Valid;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.EmptyResultDataAccessException;
 import org.springframework.http.HttpStatus;
@@ -38,19 +40,19 @@ public class EmpolyeeApiController {
 	
 	@PostMapping(consumes = "application/json")
 	@ResponseStatus(HttpStatus.CREATED)
-	public Employee create(@RequestBody Employee employee) {
+	public Employee create(@RequestBody @Valid Employee employee) {
 		return employeeService.save(employee);
 	}
 	
 	@PutMapping(consumes = "application/json")
 	@ResponseStatus(HttpStatus.OK)
-	public Employee update(@RequestBody Employee employee) {
+	public Employee update(@RequestBody @Valid Employee employee) {
 		return employeeService.save(employee);
 	}
 	
 	@PatchMapping(path="/{id}", consumes = "application/json")
 	@ResponseStatus(HttpStatus.OK)
-	public Employee partialUpdate(@PathVariable("id") long id, @RequestBody Employee patchEmployee) {
+	public Employee partialUpdate(@PathVariable("id") long id, @RequestBody @Valid Employee patchEmployee) {
 		Employee emp = employeeService.getById(id);
 		
 		if(patchEmployee.getEmail() != null) {

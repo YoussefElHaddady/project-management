@@ -2,6 +2,8 @@ package ma.usf.examples.projectmanagement.api;
 
 import java.util.List;
 
+import javax.validation.Valid;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.EmptyResultDataAccessException;
 import org.springframework.http.HttpStatus;
@@ -38,19 +40,19 @@ public class ProjectApiController {
 
 	@PostMapping(consumes = "application/json")
 	@ResponseStatus(HttpStatus.CREATED)
-	public Project create(@RequestBody Project project) {
+	public Project create(@RequestBody @Valid Project project) {
 		return projectService.save(project);
 	}
 
 	@PutMapping(consumes = "application/json")
 	@ResponseStatus(HttpStatus.OK)
-	public Project update(@RequestBody Project project) {
+	public Project update(@RequestBody @Valid Project project) {
 		return projectService.save(project);
 	}
 
 	@PatchMapping(value = "/{id}", consumes = "application/json")
 	@ResponseStatus(HttpStatus.OK)
-	public Project partialUpdate(@RequestBody Project patchProject, @PathVariable("id") Long id) {
+	public Project partialUpdate(@RequestBody @Valid Project patchProject, @PathVariable("id") Long id) {
 		Project prj = projectService.getById(id);
 
 		if (patchProject.getName() != null) {

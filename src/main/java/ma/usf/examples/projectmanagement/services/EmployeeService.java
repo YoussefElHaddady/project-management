@@ -4,6 +4,7 @@ import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.web.client.ResourceAccessException;
 
 import ma.usf.examples.projectmanagement.dao.EmployeeRepository;
 import ma.usf.examples.projectmanagement.dto.EmployeeProject;
@@ -33,6 +34,10 @@ public class EmployeeService {
 
 	public void delete(Long id) {
 		empRepo.deleteById(id);
+	}
+
+	public Employee findByEmail(String value) {
+		return empRepo.findByEmail(value).orElseThrow(NullPointerException::new);
 	}
 
 }

@@ -13,12 +13,13 @@ import javax.persistence.JoinColumn;
 import javax.persistence.JoinTable;
 import javax.persistence.ManyToMany;
 import javax.persistence.SequenceGenerator;
+import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Size;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;
-import lombok.NonNull;
 import lombok.Setter;
 
 @Entity
@@ -32,23 +33,22 @@ public class Project {
 	@SequenceGenerator(name = "project_generator", sequenceName = "project_seq", allocationSize = 1)
 	private long id;
 
-	@NonNull
+	@NotNull
+	@Size(min = 3, max = 50)
 	private String name;
 
-	@NonNull
+	@NotNull
 	private String stage; // NOTSTARTED, COMPLETED, INPROGRESS
 
-	@NonNull
 	private String description;
 
-//	@OneToMany(mappedBy = "project")
 	@ManyToMany(cascade = { CascadeType.DETACH, CascadeType.MERGE, CascadeType.REFRESH,
 			CascadeType.PERSIST }, fetch = FetchType.LAZY)
 	@JoinTable(name = "project_employee", joinColumns = @JoinColumn(name = "project_id"), inverseJoinColumns = @JoinColumn(name = "employee_id"))
 	@JsonIgnore
 	private List<Employee> employees;
 
-	public Project(@NonNull String name, @NonNull String stage, @NonNull String description) {
+	public Project(String name, String stage, String description) {
 		super();
 		this.name = name;
 		this.stage = stage;

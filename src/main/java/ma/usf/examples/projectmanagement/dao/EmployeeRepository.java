@@ -1,6 +1,7 @@
 package ma.usf.examples.projectmanagement.dao;
 
 import java.util.List;
+import java.util.Optional;
 
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.CrudRepository;
@@ -17,4 +18,6 @@ public interface EmployeeRepository extends CrudRepository<Employee, Long> {
 			+ "FROM employee e left join project_employee pe ON pe.employee_id = e.id "
 			+ "GROUP BY e.first_name, e.last_name ORDER BY 3 DESC")
 	public List<EmployeeProject> employeeProjects();
+
+	public Optional<Employee> findByEmail(String email);
 }

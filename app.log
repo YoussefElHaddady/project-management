@@ -7282,3 +7282,640 @@ java.lang.NullPointerException: null
 
 
  
+21-21-01  INFO 15568 --- [Thread-6] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+21-21-01  INFO 15568 --- [Thread-6] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+21-21-01  INFO 15568 --- [restartedMain] m.u.e.p.ProjectManagementApplication     : Starting ProjectManagementApplication using Java 11.0.10 on DESKTOP-U6AD8VU with PID 15568 (F:\Java\spring_workspace\project-management\target\classes started by pc in F:\Java\spring_workspace\project-management)
+21-21-01 DEBUG 15568 --- [restartedMain] m.u.e.p.ProjectManagementApplication     : Running with Spring Boot v2.4.2, Spring v5.3.3
+21-21-01  INFO 15568 --- [restartedMain] m.u.e.p.ProjectManagementApplication     : The following profiles are active: dev
+21-21-01  INFO 15568 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+21-21-01  INFO 15568 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 22 ms. Found 3 JPA repository interfaces.
+21-21-01  INFO 15568 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+21-21-01  INFO 15568 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 579 ms
+21-21-01  INFO 15568 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/project_management_db'
+21-21-01  INFO 15568 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+21-21-01  WARN 15568 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+21-21-01  INFO 15568 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@156163de, org.springframework.security.web.context.SecurityContextPersistenceFilter@3639cbe7, org.springframework.security.web.header.HeaderWriterFilter@2e6b144e, org.springframework.security.web.authentication.logout.LogoutFilter@8fd3562, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@1f8dceb2, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@1660e232, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@113b0f08, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@70e2c0ef, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6dd73d9, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@378a3c2f, org.springframework.security.web.session.SessionManagementFilter@7a4d5c0c, org.springframework.security.web.access.ExceptionTranslationFilter@195be8df, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@36a206b6]
+21-21-01  INFO 15568 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+21-21-01  INFO 15568 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+21-21-01  INFO 15568 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+21-21-01  INFO 15568 --- [restartedMain] m.u.e.p.ProjectManagementApplication     : Started ProjectManagementApplication in 1.459 seconds (JVM running for 911.808)
+21-21-01  INFO 15568 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+    None
+
+
+Negative matches:
+-----------------
+
+   ErrorMvcAutoConfiguration.WhitelabelErrorViewConfiguration:
+      Did not match:
+         - @ConditionalOnProperty (server.error.whitelabel.enabled) found different value in property 'enabled' (OnPropertyCondition)
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+21-21-01  INFO 15568 --- [Thread-14] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+21-21-01  INFO 15568 --- [Thread-14] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+21-21-01  INFO 15568 --- [restartedMain] m.u.e.p.ProjectManagementApplication     : Starting ProjectManagementApplication using Java 11.0.10 on DESKTOP-U6AD8VU with PID 15568 (F:\Java\spring_workspace\project-management\target\classes started by pc in F:\Java\spring_workspace\project-management)
+21-21-01 DEBUG 15568 --- [restartedMain] m.u.e.p.ProjectManagementApplication     : Running with Spring Boot v2.4.2, Spring v5.3.3
+21-21-01  INFO 15568 --- [restartedMain] m.u.e.p.ProjectManagementApplication     : The following profiles are active: dev
+21-21-01  INFO 15568 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+21-21-01  INFO 15568 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 20 ms. Found 3 JPA repository interfaces.
+21-21-01  INFO 15568 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+21-21-01  INFO 15568 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 576 ms
+21-21-01  INFO 15568 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/project_management_db'
+21-21-01  INFO 15568 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+21-21-01  WARN 15568 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+21-21-01  INFO 15568 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@72d61576, org.springframework.security.web.context.SecurityContextPersistenceFilter@30ae3fcb, org.springframework.security.web.header.HeaderWriterFilter@1c03031d, org.springframework.security.web.authentication.logout.LogoutFilter@28559aa3, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@281ed379, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@2ca43267, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@37a3bea5, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7236f278, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@76a91cc8, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@358b875, org.springframework.security.web.session.SessionManagementFilter@22af1f0d, org.springframework.security.web.access.ExceptionTranslationFilter@5b132937, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@34f007fb]
+21-21-01  INFO 15568 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+21-21-01  INFO 15568 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+21-21-01  INFO 15568 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+21-21-01  INFO 15568 --- [restartedMain] m.u.e.p.ProjectManagementApplication     : Started ProjectManagementApplication in 1.389 seconds (JVM running for 932.237)
+21-21-01  INFO 15568 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+21-23-01  INFO 14200 --- [restartedMain] m.u.e.p.ProjectManagementApplication     : Starting ProjectManagementApplication using Java 11.0.10 on DESKTOP-U6AD8VU with PID 14200 (F:\Java\spring_workspace\project-management\target\classes started by pc in F:\Java\spring_workspace\project-management)
+21-23-01 DEBUG 14200 --- [restartedMain] m.u.e.p.ProjectManagementApplication     : Running with Spring Boot v2.4.2, Spring v5.3.3
+21-23-01  INFO 14200 --- [restartedMain] m.u.e.p.ProjectManagementApplication     : The following profiles are active: dev
+21-23-01  INFO 14200 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+21-23-01  INFO 14200 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+21-23-01  INFO 14200 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+21-23-01  INFO 14200 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 89 ms. Found 3 JPA repository interfaces.
+21-23-01  INFO 14200 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+21-23-01  INFO 14200 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3163 ms
+21-23-01  INFO 14200 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/project_management_db'
+21-23-01  INFO 14200 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+21-23-01  WARN 14200 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+21-23-01  INFO 14200 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3b7c65ca, org.springframework.security.web.context.SecurityContextPersistenceFilter@d751670, org.springframework.security.web.header.HeaderWriterFilter@2b97298a, org.springframework.security.web.authentication.logout.LogoutFilter@78fb0a5e, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@5d93140a, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@49a7e25c, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@7b08b9f1, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@784a5df4, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4b94fcd7, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@745bba34, org.springframework.security.web.session.SessionManagementFilter@cc78422, org.springframework.security.web.access.ExceptionTranslationFilter@4ef0f7c7, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@31648db8]
+21-23-01  INFO 14200 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+21-23-01  INFO 14200 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+21-23-01  INFO 14200 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+21-23-01  INFO 14200 --- [restartedMain] m.u.e.p.ProjectManagementApplication     : Started ProjectManagementApplication in 7.932 seconds (JVM running for 8.869)
+21-24-01  INFO 14200 --- [Thread-6] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+21-24-01  INFO 14200 --- [Thread-6] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+21-24-01  INFO 14200 --- [restartedMain] m.u.e.p.ProjectManagementApplication     : Starting ProjectManagementApplication using Java 11.0.10 on DESKTOP-U6AD8VU with PID 14200 (F:\Java\spring_workspace\project-management\target\classes started by pc in F:\Java\spring_workspace\project-management)
+21-24-01 DEBUG 14200 --- [restartedMain] m.u.e.p.ProjectManagementApplication     : Running with Spring Boot v2.4.2, Spring v5.3.3
+21-24-01  INFO 14200 --- [restartedMain] m.u.e.p.ProjectManagementApplication     : The following profiles are active: dev
+21-24-01  INFO 14200 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+21-24-01  INFO 14200 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 36 ms. Found 3 JPA repository interfaces.
+21-24-01  INFO 14200 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+21-24-01  INFO 14200 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 955 ms
+21-24-01  INFO 14200 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/project_management_db'
+21-24-01  INFO 14200 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+21-24-01  WARN 14200 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+21-24-01  INFO 14200 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@57911a99, org.springframework.security.web.context.SecurityContextPersistenceFilter@4a9cc042, org.springframework.security.web.header.HeaderWriterFilter@7504b3de, org.springframework.security.web.authentication.logout.LogoutFilter@61e0cb17, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@41441f49, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@22ca9e19, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@42d47768, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@c7c6163, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5cb6a971, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@60e716a7, org.springframework.security.web.session.SessionManagementFilter@7ff02e50, org.springframework.security.web.access.ExceptionTranslationFilter@4d516efc, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@161680fd]
+21-24-01  INFO 14200 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+21-24-01  INFO 14200 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+21-24-01  INFO 14200 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+21-24-01  INFO 14200 --- [restartedMain] m.u.e.p.ProjectManagementApplication     : Started ProjectManagementApplication in 2.198 seconds (JVM running for 75.9)
+21-24-01  INFO 14200 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+21-26-01  INFO 14200 --- [Thread-9] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+21-26-01  INFO 14200 --- [Thread-9] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+21-26-01  INFO 14200 --- [restartedMain] m.u.e.p.ProjectManagementApplication     : Starting ProjectManagementApplication using Java 11.0.10 on DESKTOP-U6AD8VU with PID 14200 (F:\Java\spring_workspace\project-management\target\classes started by pc in F:\Java\spring_workspace\project-management)
+21-26-01 DEBUG 14200 --- [restartedMain] m.u.e.p.ProjectManagementApplication     : Running with Spring Boot v2.4.2, Spring v5.3.3
+21-26-01  INFO 14200 --- [restartedMain] m.u.e.p.ProjectManagementApplication     : The following profiles are active: dev
+21-26-01  INFO 14200 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+21-26-01  INFO 14200 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 21 ms. Found 3 JPA repository interfaces.
+21-26-01  INFO 14200 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+21-26-01  INFO 14200 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 648 ms
+21-26-01  INFO 14200 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/project_management_db'
+21-26-01  INFO 14200 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+21-26-01  WARN 14200 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+21-26-01  INFO 14200 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@202e6f81, org.springframework.security.web.context.SecurityContextPersistenceFilter@50f9afe5, org.springframework.security.web.header.HeaderWriterFilter@729aea97, org.springframework.security.web.authentication.logout.LogoutFilter@50335c1a, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@f74fa24, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@39505a39, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@7a079775, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2a4bc8fa, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@f205176, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@47cd9b31, org.springframework.security.web.session.SessionManagementFilter@3961e4f7, org.springframework.security.web.access.ExceptionTranslationFilter@56a58da5, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3e5074f0]
+21-26-01  INFO 14200 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+21-26-01  INFO 14200 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+21-26-01  INFO 14200 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+21-26-01  INFO 14200 --- [restartedMain] m.u.e.p.ProjectManagementApplication     : Started ProjectManagementApplication in 1.585 seconds (JVM running for 165.731)
+21-26-01  INFO 14200 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+21-52-01  INFO 10972 --- [restartedMain] m.u.e.p.ProjectManagementApplication     : Starting ProjectManagementApplication using Java 11.0.10 on DESKTOP-U6AD8VU with PID 10972 (F:\Java\spring_workspace\project-management\target\classes started by pc in F:\Java\spring_workspace\project-management)
+21-52-01 DEBUG 10972 --- [restartedMain] m.u.e.p.ProjectManagementApplication     : Running with Spring Boot v2.4.2, Spring v5.3.3
+21-52-01  INFO 10972 --- [restartedMain] m.u.e.p.ProjectManagementApplication     : The following profiles are active: dev
+21-52-01  INFO 10972 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+21-52-01  INFO 10972 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+21-52-01  INFO 10972 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+21-52-01  INFO 10972 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 130 ms. Found 3 JPA repository interfaces.
+21-52-01  INFO 10972 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+21-52-01  INFO 10972 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3641 ms
+21-52-01  INFO 10972 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/project_management_db'
+21-52-01  INFO 10972 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+21-52-01  WARN 10972 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+21-52-01  INFO 10972 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4b51b306, org.springframework.security.web.context.SecurityContextPersistenceFilter@35719075, org.springframework.security.web.header.HeaderWriterFilter@252047a6, org.springframework.security.web.authentication.logout.LogoutFilter@3c38bc8f, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@7fe47734, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@b7f48b5, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@621972bb, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@932bdc8, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4a6dc0f1, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4462e5f9, org.springframework.security.web.session.SessionManagementFilter@1f1bf55f, org.springframework.security.web.access.ExceptionTranslationFilter@45dbca95, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@9e95f75]
+21-52-01  INFO 10972 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+21-52-01  INFO 10972 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+21-52-01  INFO 10972 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+21-52-01  INFO 10972 --- [restartedMain] m.u.e.p.ProjectManagementApplication     : Started ProjectManagementApplication in 9.47 seconds (JVM running for 10.361)
+21-52-01  INFO 10972 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+21-52-01  INFO 10972 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+21-52-01 DEBUG 10972 --- [http-nio-8080-exec-5] m.u.e.p.logging.ApplicationLoggerAspect  :  
+
+
+ 
+21-52-01 DEBUG 10972 --- [http-nio-8080-exec-5] m.u.e.p.logging.ApplicationLoggerAspect  : *************** Before Method Execution **************** 
+ ma.usf.examples.projectmanagement.controllers.AppErrorController.handleError with arguments[s] = [SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.context.HttpSessionSecurityContextRepository$SaveToSessionRequestWrapper@745d919b]]
+21-52-01 DEBUG 10972 --- [http-nio-8080-exec-5] m.u.e.p.logging.ApplicationLoggerAspect  :  ----------------------------------- 
+
+
+ 
+21-52-01 DEBUG 10972 --- [http-nio-8080-exec-5] m.u.e.p.logging.ApplicationLoggerAspect  :  
+
+
+ 
+21-52-01 DEBUG 10972 --- [http-nio-8080-exec-5] m.u.e.p.logging.ApplicationLoggerAspect  : *************** After Method Execution **************** 
+ ma.usf.examples.projectmanagement.controllers.AppErrorController.handleError with arguments[s] = [SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.context.HttpSessionSecurityContextRepository$SaveToSessionRequestWrapper@745d919b]]
+21-52-01 DEBUG 10972 --- [http-nio-8080-exec-5] m.u.e.p.logging.ApplicationLoggerAspect  :  ----------------------------------- 
+
+
+ 
+21-53-01 DEBUG 10972 --- [http-nio-8080-exec-6] m.u.e.p.logging.ApplicationLoggerAspect  :  
+
+
+ 
+21-53-01 DEBUG 10972 --- [http-nio-8080-exec-6] m.u.e.p.logging.ApplicationLoggerAspect  : *************** Before Method Execution **************** 
+ ma.usf.examples.projectmanagement.controllers.validation.UniqueValidator.isValid with arguments[s] = [warton@gmail.com, org.hibernate.validator.internal.engine.constraintvalidation.ConstraintValidatorContextImpl@3a379cfc]
+21-53-01 DEBUG 10972 --- [http-nio-8080-exec-6] m.u.e.p.logging.ApplicationLoggerAspect  :  ----------------------------------- 
+
+
+ 
+21-53-01 DEBUG 10972 --- [http-nio-8080-exec-6] m.u.e.p.logging.ApplicationLoggerAspect  :  
+
+
+ 
+21-53-01 DEBUG 10972 --- [http-nio-8080-exec-6] m.u.e.p.logging.ApplicationLoggerAspect  : *************** After Method Execution **************** 
+ ma.usf.examples.projectmanagement.controllers.validation.UniqueValidator.isValid with arguments[s] = [warton@gmail.com, org.hibernate.validator.internal.engine.constraintvalidation.ConstraintValidatorContextImpl@3a379cfc]
+21-53-01 DEBUG 10972 --- [http-nio-8080-exec-6] m.u.e.p.logging.ApplicationLoggerAspect  :  ----------------------------------- 
+
+
+ 
+21-53-01  WARN 10972 --- [http-nio-8080-exec-6] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public ma.usf.examples.projectmanagement.entities.Employee ma.usf.examples.projectmanagement.api.EmpolyeeApiController.create(ma.usf.examples.projectmanagement.entities.Employee): [Field error in object 'employee' on field 'email': rejected value [warton@gmail.com]; codes [UniqueValue.employee.email,UniqueValue.email,UniqueValue.java.lang.String,UniqueValue]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employee.email,email]; arguments []; default message [email]]; default message [Unique Constraint violated]] ]
+21-53-01  WARN 10972 --- [http-nio-8080-exec-6] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+21-55-01  INFO 10972 --- [Thread-6] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+21-55-01  INFO 10972 --- [Thread-6] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+21-55-01  INFO 10972 --- [restartedMain] m.u.e.p.ProjectManagementApplication     : Starting ProjectManagementApplication using Java 11.0.10 on DESKTOP-U6AD8VU with PID 10972 (F:\Java\spring_workspace\project-management\target\classes started by pc in F:\Java\spring_workspace\project-management)
+21-55-01 DEBUG 10972 --- [restartedMain] m.u.e.p.ProjectManagementApplication     : Running with Spring Boot v2.4.2, Spring v5.3.3
+21-55-01  INFO 10972 --- [restartedMain] m.u.e.p.ProjectManagementApplication     : The following profiles are active: dev
+21-55-01  INFO 10972 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+21-55-01  INFO 10972 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 27 ms. Found 3 JPA repository interfaces.
+21-55-01  INFO 10972 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+21-55-01  INFO 10972 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 802 ms
+21-55-01  INFO 10972 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/project_management_db'
+21-55-01  INFO 10972 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+21-55-01  WARN 10972 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+21-55-01  INFO 10972 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@470c21d4, org.springframework.security.web.context.SecurityContextPersistenceFilter@12930d70, org.springframework.security.web.header.HeaderWriterFilter@623a2954, org.springframework.security.web.authentication.logout.LogoutFilter@766ffb86, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@4a357e59, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@532c3aef, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@27a5ff18, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@268123e1, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@15c2deec, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@449bc83b, org.springframework.security.web.session.SessionManagementFilter@1d1b6675, org.springframework.security.web.access.ExceptionTranslationFilter@16345259, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@66cb629]
+21-55-01  INFO 10972 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+21-55-01  INFO 10972 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+21-55-01  INFO 10972 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+21-55-01  INFO 10972 --- [restartedMain] m.u.e.p.ProjectManagementApplication     : Started ProjectManagementApplication in 1.939 seconds (JVM running for 190.11)
+21-55-01  INFO 10972 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+21-55-01  INFO 10972 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+21-55-01  INFO 10972 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+21-55-01 DEBUG 10972 --- [http-nio-8080-exec-2] m.u.e.p.logging.ApplicationLoggerAspect  :  
+
+
+ 
+21-55-01 DEBUG 10972 --- [http-nio-8080-exec-2] m.u.e.p.logging.ApplicationLoggerAspect  : *************** Before Method Execution **************** 
+ ma.usf.examples.projectmanagement.controllers.validation.UniqueValidator.isValid with arguments[s] = [warton@gmail.com, org.hibernate.validator.internal.engine.constraintvalidation.ConstraintValidatorContextImpl@14e13229]
+21-55-01 DEBUG 10972 --- [http-nio-8080-exec-2] m.u.e.p.logging.ApplicationLoggerAspect  :  ----------------------------------- 
+
+
+ 
+21-55-01 DEBUG 10972 --- [http-nio-8080-exec-2] m.u.e.p.logging.ApplicationLoggerAspect  :  
+
+
+ 
+21-55-01 DEBUG 10972 --- [http-nio-8080-exec-2] m.u.e.p.logging.ApplicationLoggerAspect  : *************** After Method Execution **************** 
+ ma.usf.examples.projectmanagement.controllers.validation.UniqueValidator.isValid with arguments[s] = [warton@gmail.com, org.hibernate.validator.internal.engine.constraintvalidation.ConstraintValidatorContextImpl@14e13229]
+21-55-01 DEBUG 10972 --- [http-nio-8080-exec-2] m.u.e.p.logging.ApplicationLoggerAspect  :  ----------------------------------- 
+
+
+ 
+21-55-01  WARN 10972 --- [http-nio-8080-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public ma.usf.examples.projectmanagement.entities.Employee ma.usf.examples.projectmanagement.api.EmpolyeeApiController.create(ma.usf.examples.projectmanagement.entities.Employee): [Field error in object 'employee' on field 'email': rejected value [warton@gmail.com]; codes [UniqueValue.employee.email,UniqueValue.email,UniqueValue.java.lang.String,UniqueValue]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employee.email,email]; arguments []; default message [email]]; default message [Unique Constraint violated]] ]
+21-55-01  WARN 10972 --- [http-nio-8080-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+21-07-01  WARN 10972 --- [HikariPool-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=41m35s619ms614µs800ns).
+21-10-01  INFO 5020 --- [restartedMain] m.u.e.p.ProjectManagementApplication     : Starting ProjectManagementApplication using Java 11.0.10 on DESKTOP-U6AD8VU with PID 5020 (F:\Java\spring_workspace\project-management\target\classes started by pc in F:\Java\spring_workspace\project-management)
+21-10-01 DEBUG 5020 --- [restartedMain] m.u.e.p.ProjectManagementApplication     : Running with Spring Boot v2.4.2, Spring v5.3.3
+21-10-01  INFO 5020 --- [restartedMain] m.u.e.p.ProjectManagementApplication     : The following profiles are active: dev
+21-10-01  INFO 5020 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+21-10-01  INFO 5020 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+21-10-01  INFO 5020 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+21-10-01  INFO 5020 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 99 ms. Found 3 JPA repository interfaces.
+21-10-01  INFO 5020 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+21-10-01  INFO 5020 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3715 ms
+21-10-01  INFO 5020 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/project_management_db'
+21-10-01  INFO 5020 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+21-10-01  WARN 5020 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+21-10-01  INFO 5020 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@38608279, org.springframework.security.web.context.SecurityContextPersistenceFilter@23bf1c4a, org.springframework.security.web.header.HeaderWriterFilter@3fbb8d8b, org.springframework.security.web.authentication.logout.LogoutFilter@36d52cdd, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@7badcabd, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@373bf692, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@56fc0ab0, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5321fc99, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@75ba5b76, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5b6281ca, org.springframework.security.web.session.SessionManagementFilter@52a6117b, org.springframework.security.web.access.ExceptionTranslationFilter@35a28929, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3f42a22]
+21-10-01  INFO 5020 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+21-10-01  INFO 5020 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+21-10-01  INFO 5020 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+21-10-01  INFO 5020 --- [restartedMain] m.u.e.p.ProjectManagementApplication     : Started ProjectManagementApplication in 11.048 seconds (JVM running for 12.012)
+21-10-01  INFO 5020 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+21-10-01  INFO 5020 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+21-10-01 DEBUG 5020 --- [http-nio-8080-exec-1] m.u.e.p.logging.ApplicationLoggerAspect  :  
+
+
+ 
+21-10-01 DEBUG 5020 --- [http-nio-8080-exec-1] m.u.e.p.logging.ApplicationLoggerAspect  : *************** Before Method Execution **************** 
+ ma.usf.examples.projectmanagement.controllers.validation.UniqueValidator.isValid with arguments[s] = [warton@gmail.com, org.hibernate.validator.internal.engine.constraintvalidation.ConstraintValidatorContextImpl@4efc1e6f]
+21-10-01 DEBUG 5020 --- [http-nio-8080-exec-1] m.u.e.p.logging.ApplicationLoggerAspect  :  ----------------------------------- 
+
+
+ 
+21-10-01 DEBUG 5020 --- [http-nio-8080-exec-1] m.u.e.p.logging.ApplicationLoggerAspect  :  
+
+
+ 
+21-10-01 DEBUG 5020 --- [http-nio-8080-exec-1] m.u.e.p.logging.ApplicationLoggerAspect  : *************** After Method Execution **************** 
+ ma.usf.examples.projectmanagement.controllers.validation.UniqueValidator.isValid with arguments[s] = [warton@gmail.com, org.hibernate.validator.internal.engine.constraintvalidation.ConstraintValidatorContextImpl@4efc1e6f]
+21-10-01 DEBUG 5020 --- [http-nio-8080-exec-1] m.u.e.p.logging.ApplicationLoggerAspect  :  ----------------------------------- 
+
+
+ 
+21-10-01  WARN 5020 --- [http-nio-8080-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public ma.usf.examples.projectmanagement.entities.Employee ma.usf.examples.projectmanagement.api.EmpolyeeApiController.create(ma.usf.examples.projectmanagement.entities.Employee): [Field error in object 'employee' on field 'email': rejected value [warton@gmail.com]; codes [UniqueValue.employee.email,UniqueValue.email,UniqueValue.java.lang.String,UniqueValue]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employee.email,email]; arguments []; default message [email]]; default message [Unique Constraint violated]] ]
+21-10-01  WARN 5020 --- [http-nio-8080-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+21-12-01  INFO 5020 --- [Thread-6] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+21-12-01  INFO 5020 --- [Thread-6] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+21-12-01  INFO 5020 --- [restartedMain] m.u.e.p.ProjectManagementApplication     : Starting ProjectManagementApplication using Java 11.0.10 on DESKTOP-U6AD8VU with PID 5020 (F:\Java\spring_workspace\project-management\target\classes started by pc in F:\Java\spring_workspace\project-management)
+21-12-01 DEBUG 5020 --- [restartedMain] m.u.e.p.ProjectManagementApplication     : Running with Spring Boot v2.4.2, Spring v5.3.3
+21-12-01  INFO 5020 --- [restartedMain] m.u.e.p.ProjectManagementApplication     : The following profiles are active: dev
+21-12-01  INFO 5020 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+21-12-01  INFO 5020 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 30 ms. Found 3 JPA repository interfaces.
+21-12-01  INFO 5020 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+21-12-01  INFO 5020 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 753 ms
+21-12-01  INFO 5020 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/project_management_db'
+21-12-01  INFO 5020 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+21-12-01  WARN 5020 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+21-12-01  INFO 5020 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@a93d749, org.springframework.security.web.context.SecurityContextPersistenceFilter@1b730376, org.springframework.security.web.header.HeaderWriterFilter@5253026d, org.springframework.security.web.authentication.logout.LogoutFilter@37e0bf5f, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@6eefb7de, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@555d7d1f, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@6a2406b9, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4d459e46, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7cfbde9, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4ac56103, org.springframework.security.web.session.SessionManagementFilter@7104689f, org.springframework.security.web.access.ExceptionTranslationFilter@5991ee30, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7c5b9345]
+21-12-01  INFO 5020 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+21-12-01  INFO 5020 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+21-12-01  INFO 5020 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+21-12-01  INFO 5020 --- [restartedMain] m.u.e.p.ProjectManagementApplication     : Started ProjectManagementApplication in 1.779 seconds (JVM running for 134.385)
+21-12-01  INFO 5020 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+21-17-01  INFO 5020 --- [Thread-9] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+21-17-01  INFO 5020 --- [Thread-9] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+21-17-01  INFO 5020 --- [restartedMain] m.u.e.p.ProjectManagementApplication     : Starting ProjectManagementApplication using Java 11.0.10 on DESKTOP-U6AD8VU with PID 5020 (F:\Java\spring_workspace\project-management\target\classes started by pc in F:\Java\spring_workspace\project-management)
+21-17-01 DEBUG 5020 --- [restartedMain] m.u.e.p.ProjectManagementApplication     : Running with Spring Boot v2.4.2, Spring v5.3.3
+21-17-01  INFO 5020 --- [restartedMain] m.u.e.p.ProjectManagementApplication     : The following profiles are active: dev
+21-17-01  INFO 5020 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+21-17-01  INFO 5020 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 21 ms. Found 3 JPA repository interfaces.
+21-17-01  INFO 5020 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+21-17-01  INFO 5020 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 737 ms
+21-17-01  INFO 5020 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/project_management_db'
+21-17-01  INFO 5020 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+21-17-01  WARN 5020 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+21-17-01  INFO 5020 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@20c66663, org.springframework.security.web.context.SecurityContextPersistenceFilter@922023f, org.springframework.security.web.header.HeaderWriterFilter@2c9ed921, org.springframework.security.web.authentication.logout.LogoutFilter@37d30673, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@63e37582, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@6a6cab16, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@195a01ef, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6124aeb3, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3ba93467, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@58fbafe4, org.springframework.security.web.session.SessionManagementFilter@5770cc88, org.springframework.security.web.access.ExceptionTranslationFilter@60311beb, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@38cf35fd]
+21-17-01  INFO 5020 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+21-17-01  INFO 5020 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+21-17-01  INFO 5020 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+21-17-01  INFO 5020 --- [restartedMain] m.u.e.p.ProjectManagementApplication     : Started ProjectManagementApplication in 1.788 seconds (JVM running for 425.797)
+21-17-01  INFO 5020 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-04-01 14:18:06.406  INFO 3476 --- [restartedMain] m.u.e.p.ProjectManagementApplication     : Starting ProjectManagementApplication using Java 11.0.10 on DESKTOP-U6AD8VU with PID 3476 (F:\Java\spring_workspace\project-management\target\classes started by pc in F:\Java\spring_workspace\project-management)
+2021-04-01 14:18:06.414 DEBUG 3476 --- [restartedMain] m.u.e.p.ProjectManagementApplication     : Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-04-01 14:18:06.414  INFO 3476 --- [restartedMain] m.u.e.p.ProjectManagementApplication     : The following profiles are active: dev
+2021-04-01 14:18:06.514  INFO 3476 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-04-01 14:18:06.515  INFO 3476 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-04-01 14:18:07.810  INFO 3476 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-04-01 14:18:07.930  INFO 3476 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 102 ms. Found 3 JPA repository interfaces.
+2021-04-01 14:18:09.412  INFO 3476 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-04-01 14:18:09.606  INFO 3476 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3087 ms
+2021-04-01 14:18:09.943  INFO 3476 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/project_management_db'
+2021-04-01 14:18:11.802  INFO 3476 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-01 14:18:12.612  WARN 3476 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-04-01 14:18:12.890  INFO 3476 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5f5e56f8, org.springframework.security.web.context.SecurityContextPersistenceFilter@ea2e513, org.springframework.security.web.header.HeaderWriterFilter@516e61d, org.springframework.security.web.authentication.logout.LogoutFilter@7498b344, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@18250fd8, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@79a13ca9, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@6675dea9, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@e193cc0, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@69bcb4e8, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4cb1b7a, org.springframework.security.web.session.SessionManagementFilter@14b1eae0, org.springframework.security.web.access.ExceptionTranslationFilter@74cf2e64, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@59e84ea4]
+2021-04-01 14:18:13.118  INFO 3476 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-01 14:18:13.566  INFO 3476 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-04-01 14:18:13.631  INFO 3476 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-04-01 14:18:13.649  INFO 3476 --- [restartedMain] m.u.e.p.ProjectManagementApplication     : Started ProjectManagementApplication in 7.978 seconds (JVM running for 8.872)
+2021-04-01 14:18:32.996  INFO 3476 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-04-01 14:18:33.000  INFO 3476 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2021-04-01 14:18:33.723  WARN 3476 --- [http-nio-8080-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public ma.usf.examples.projectmanagement.entities.Employee ma.usf.examples.projectmanagement.api.EmpolyeeApiController.create(ma.usf.examples.projectmanagement.entities.Employee): [Field error in object 'employee' on field 'email': rejected value [warton@gmail.com]; codes [UniqueValue.employee.email,UniqueValue.email,UniqueValue.java.lang.String,UniqueValue]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employee.email,email]; arguments []; default message [email]]; default message [Unique Constraint violated]] ]
+2021-04-01 14:18:33.738  WARN 3476 --- [http-nio-8080-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2021-04-01 14:18:51.902  INFO 3476 --- [Thread-6] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-01 14:18:51.905  INFO 3476 --- [Thread-6] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-04-01 14:18:52.063  INFO 3476 --- [restartedMain] m.u.e.p.ProjectManagementApplication     : Starting ProjectManagementApplication using Java 11.0.10 on DESKTOP-U6AD8VU with PID 3476 (F:\Java\spring_workspace\project-management\target\classes started by pc in F:\Java\spring_workspace\project-management)
+2021-04-01 14:18:52.064 DEBUG 3476 --- [restartedMain] m.u.e.p.ProjectManagementApplication     : Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-04-01 14:18:52.064  INFO 3476 --- [restartedMain] m.u.e.p.ProjectManagementApplication     : The following profiles are active: dev
+2021-04-01 14:18:52.550  INFO 3476 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-04-01 14:18:52.579  INFO 3476 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 28 ms. Found 3 JPA repository interfaces.
+2021-04-01 14:18:52.796  INFO 3476 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-04-01 14:18:52.841  INFO 3476 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 772 ms
+2021-04-01 14:18:52.952  INFO 3476 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/project_management_db'
+2021-04-01 14:18:53.229  INFO 3476 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-01 14:18:53.450  WARN 3476 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-04-01 14:18:53.496  INFO 3476 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3f90d49f, org.springframework.security.web.context.SecurityContextPersistenceFilter@2d7f0738, org.springframework.security.web.header.HeaderWriterFilter@4af88215, org.springframework.security.web.authentication.logout.LogoutFilter@735fd259, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@3c8f7b6a, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@48f10a87, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@4cddd3d2, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@72938803, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7cf5446e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6ab236e2, org.springframework.security.web.session.SessionManagementFilter@563c5196, org.springframework.security.web.access.ExceptionTranslationFilter@2d3e51ad, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2c61451e]
+2021-04-01 14:18:53.584  INFO 3476 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-01 14:18:53.724  INFO 3476 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-04-01 14:18:53.746  INFO 3476 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-04-01 14:18:53.753  INFO 3476 --- [restartedMain] m.u.e.p.ProjectManagementApplication     : Started ProjectManagementApplication in 1.755 seconds (JVM running for 48.977)
+2021-04-01 14:18:53.756  INFO 3476 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-04-01 14:19:09.012  INFO 3476 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-04-01 14:19:09.014  INFO 3476 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-04-01 14:19:09.052  WARN 3476 --- [http-nio-8080-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public ma.usf.examples.projectmanagement.entities.Employee ma.usf.examples.projectmanagement.api.EmpolyeeApiController.create(ma.usf.examples.projectmanagement.entities.Employee): [Field error in object 'employee' on field 'email': rejected value [warton@gmail.com]; codes [UniqueValue.employee.email,UniqueValue.email,UniqueValue.java.lang.String,UniqueValue]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employee.email,email]; arguments []; default message [email]]; default message [Unique Constraint violated]] ]
+2021-04-01 14:19:09.054  WARN 3476 --- [http-nio-8080-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2021-04-01 14:19:26.218  INFO 12420 --- [restartedMain] m.u.e.p.ProjectManagementApplication     : Starting ProjectManagementApplication using Java 11.0.10 on DESKTOP-U6AD8VU with PID 12420 (F:\Java\spring_workspace\project-management\target\classes started by pc in F:\Java\spring_workspace\project-management)
+2021-04-01 14:19:26.222 DEBUG 12420 --- [restartedMain] m.u.e.p.ProjectManagementApplication     : Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-04-01 14:19:26.222  INFO 12420 --- [restartedMain] m.u.e.p.ProjectManagementApplication     : The following profiles are active: dev
+2021-04-01 14:19:26.308  INFO 12420 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-04-01 14:19:26.309  INFO 12420 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-04-01 14:19:27.545  INFO 12420 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-04-01 14:19:27.643  INFO 12420 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 80 ms. Found 3 JPA repository interfaces.
+2021-04-01 14:19:29.168  INFO 12420 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-04-01 14:19:29.350  INFO 12420 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3038 ms
+2021-04-01 14:19:29.669  INFO 12420 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/project_management_db'
+2021-04-01 14:19:31.633  INFO 12420 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-01 14:19:32.428  WARN 12420 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-04-01 14:19:32.726  INFO 12420 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1ff8bc5e, org.springframework.security.web.context.SecurityContextPersistenceFilter@79fb53de, org.springframework.security.web.header.HeaderWriterFilter@6fbaf08, org.springframework.security.web.authentication.logout.LogoutFilter@39cb8abe, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@70574b26, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@3c128a84, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@2043286d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@36cba043, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7938b565, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@638ca7f3, org.springframework.security.web.session.SessionManagementFilter@50e0d96c, org.springframework.security.web.access.ExceptionTranslationFilter@76d57946, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@17e95f0b]
+2021-04-01 14:19:32.950  INFO 12420 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-01 14:19:33.380  INFO 12420 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-04-01 14:19:33.438  INFO 12420 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-04-01 14:19:33.455  INFO 12420 --- [restartedMain] m.u.e.p.ProjectManagementApplication     : Started ProjectManagementApplication in 8.011 seconds (JVM running for 8.922)
+2021-04-01 14:19:46.088  INFO 12420 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-04-01 14:19:46.094  INFO 12420 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2021-04-01 14:19:46.751  WARN 12420 --- [http-nio-8080-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public ma.usf.examples.projectmanagement.entities.Employee ma.usf.examples.projectmanagement.api.EmpolyeeApiController.create(ma.usf.examples.projectmanagement.entities.Employee): [Field error in object 'employee' on field 'email': rejected value [warton@gmail.com]; codes [UniqueValue.employee.email,UniqueValue.email,UniqueValue.java.lang.String,UniqueValue]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employee.email,email]; arguments []; default message [email]]; default message [Unique Constraint violated]] ]
+2021-04-01 14:19:46.768  WARN 12420 --- [http-nio-8080-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2021-04-01 14:20:31.771 ERROR 12420 --- [http-nio-8080-exec-3] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is javax.validation.ValidationException: HV000028: Unexpected exception during isValid call.] with root cause
+
+java.lang.NullPointerException: null
+	at java.base/java.util.Optional.orElseThrow(Optional.java:408) ~[na:na]
+	at ma.usf.examples.projectmanagement.services.EmployeeService.findByEmail(EmployeeService.java:40) ~[classes/:na]
+	at ma.usf.examples.projectmanagement.controllers.validation.UniqueValidator.isValid(UniqueValidator.java:19) ~[classes/:na]
+	at ma.usf.examples.projectmanagement.controllers.validation.UniqueValidator.isValid(UniqueValidator.java:1) ~[classes/:na]
+	at org.hibernate.validator.internal.engine.constraintvalidation.ConstraintTree.validateSingleConstraint(ConstraintTree.java:180) ~[hibernate-validator-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.validator.internal.engine.constraintvalidation.SimpleConstraintTree.validateConstraints(SimpleConstraintTree.java:62) ~[hibernate-validator-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.validator.internal.engine.constraintvalidation.ConstraintTree.validateConstraints(ConstraintTree.java:75) ~[hibernate-validator-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.validator.internal.metadata.core.MetaConstraint.doValidateConstraint(MetaConstraint.java:130) ~[hibernate-validator-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.validator.internal.metadata.core.MetaConstraint.validateConstraint(MetaConstraint.java:123) ~[hibernate-validator-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.validator.internal.engine.ValidatorImpl.validateMetaConstraint(ValidatorImpl.java:555) ~[hibernate-validator-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.validator.internal.engine.ValidatorImpl.validateConstraintsForSingleDefaultGroupElement(ValidatorImpl.java:518) ~[hibernate-validator-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.validator.internal.engine.ValidatorImpl.validateConstraintsForDefaultGroup(ValidatorImpl.java:488) ~[hibernate-validator-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.validator.internal.engine.ValidatorImpl.validateConstraintsForCurrentGroup(ValidatorImpl.java:450) ~[hibernate-validator-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.validator.internal.engine.ValidatorImpl.validateInContext(ValidatorImpl.java:400) ~[hibernate-validator-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.validator.internal.engine.ValidatorImpl.validate(ValidatorImpl.java:172) ~[hibernate-validator-6.1.7.Final.jar:6.1.7.Final]
+	at org.springframework.validation.beanvalidation.SpringValidatorAdapter.validate(SpringValidatorAdapter.java:117) ~[spring-context-5.3.3.jar:5.3.3]
+	at org.springframework.boot.autoconfigure.validation.ValidatorAdapter.validate(ValidatorAdapter.java:70) ~[spring-boot-autoconfigure-2.4.2.jar:2.4.2]
+	at org.springframework.validation.DataBinder.validate(DataBinder.java:892) ~[spring-context-5.3.3.jar:5.3.3]
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodArgumentResolver.validateIfApplicable(AbstractMessageConverterMethodArgumentResolver.java:266) ~[spring-webmvc-5.3.3.jar:5.3.3]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.resolveArgument(RequestResponseBodyMethodProcessor.java:137) ~[spring-webmvc-5.3.3.jar:5.3.3]
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:121) ~[spring-web-5.3.3.jar:5.3.3]
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:170) ~[spring-web-5.3.3.jar:5.3.3]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:137) ~[spring-web-5.3.3.jar:5.3.3]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106) ~[spring-webmvc-5.3.3.jar:5.3.3]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:894) ~[spring-webmvc-5.3.3.jar:5.3.3]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.3.jar:5.3.3]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.3.jar:5.3.3]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1060) ~[spring-webmvc-5.3.3.jar:5.3.3]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:962) ~[spring-webmvc-5.3.3.jar:5.3.3]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.3.jar:5.3.3]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909) ~[spring-webmvc-5.3.3.jar:5.3.3]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652) ~[tomcat-embed-core-9.0.41.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.3.jar:5.3.3]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733) ~[tomcat-embed-core-9.0.41.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.41.jar:9.0.41]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:327) ~[spring-security-web-5.4.2.jar:5.4.2]
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:115) ~[spring-security-web-5.4.2.jar:5.4.2]
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:81) ~[spring-security-web-5.4.2.jar:5.4.2]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.2.jar:5.4.2]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:119) ~[spring-security-web-5.4.2.jar:5.4.2]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:113) ~[spring-security-web-5.4.2.jar:5.4.2]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.2.jar:5.4.2]
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:126) ~[spring-security-web-5.4.2.jar:5.4.2]
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:81) ~[spring-security-web-5.4.2.jar:5.4.2]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.2.jar:5.4.2]
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:105) ~[spring-security-web-5.4.2.jar:5.4.2]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.2.jar:5.4.2]
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:149) ~[spring-security-web-5.4.2.jar:5.4.2]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.2.jar:5.4.2]
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63) ~[spring-security-web-5.4.2.jar:5.4.2]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.2.jar:5.4.2]
+	at org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter.doFilterInternal(DefaultLogoutPageGeneratingFilter.java:58) ~[spring-security-web-5.4.2.jar:5.4.2]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.3.jar:5.3.3]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.2.jar:5.4.2]
+	at org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter.doFilter(DefaultLoginPageGeneratingFilter.java:237) ~[spring-security-web-5.4.2.jar:5.4.2]
+	at org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter.doFilter(DefaultLoginPageGeneratingFilter.java:223) ~[spring-security-web-5.4.2.jar:5.4.2]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.2.jar:5.4.2]
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:218) ~[spring-security-web-5.4.2.jar:5.4.2]
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:212) ~[spring-security-web-5.4.2.jar:5.4.2]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.2.jar:5.4.2]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103) ~[spring-security-web-5.4.2.jar:5.4.2]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89) ~[spring-security-web-5.4.2.jar:5.4.2]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.2.jar:5.4.2]
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90) ~[spring-security-web-5.4.2.jar:5.4.2]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75) ~[spring-security-web-5.4.2.jar:5.4.2]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.3.jar:5.3.3]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.2.jar:5.4.2]
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:110) ~[spring-security-web-5.4.2.jar:5.4.2]
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:80) ~[spring-security-web-5.4.2.jar:5.4.2]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.2.jar:5.4.2]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55) ~[spring-security-web-5.4.2.jar:5.4.2]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.3.jar:5.3.3]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.2.jar:5.4.2]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:211) ~[spring-security-web-5.4.2.jar:5.4.2]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:183) ~[spring-security-web-5.4.2.jar:5.4.2]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358) ~[spring-web-5.3.3.jar:5.3.3]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271) ~[spring-web-5.3.3.jar:5.3.3]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.3.jar:5.3.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.3.jar:5.3.3]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.3.jar:5.3.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.3.jar:5.3.3]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.3.jar:5.3.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.3.jar:5.3.3]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:888) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1597) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[na:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at java.base/java.lang.Thread.run(Thread.java:834) ~[na:na]
+
+2021-04-01 14:20:31.776  WARN 12420 --- [http-nio-8080-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2021-04-01 14:20:53.461  INFO 12420 --- [Thread-6] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-01 14:20:53.464  INFO 12420 --- [Thread-6] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-04-01 14:20:53.620  INFO 12420 --- [restartedMain] m.u.e.p.ProjectManagementApplication     : Starting ProjectManagementApplication using Java 11.0.10 on DESKTOP-U6AD8VU with PID 12420 (F:\Java\spring_workspace\project-management\target\classes started by pc in F:\Java\spring_workspace\project-management)
+2021-04-01 14:20:53.621 DEBUG 12420 --- [restartedMain] m.u.e.p.ProjectManagementApplication     : Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-04-01 14:20:53.622  INFO 12420 --- [restartedMain] m.u.e.p.ProjectManagementApplication     : The following profiles are active: dev
+2021-04-01 14:20:54.062  INFO 12420 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-04-01 14:20:54.089  INFO 12420 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 26 ms. Found 3 JPA repository interfaces.
+2021-04-01 14:20:54.314  INFO 12420 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-04-01 14:20:54.353  INFO 12420 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 726 ms
+2021-04-01 14:20:54.454  INFO 12420 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/project_management_db'
+2021-04-01 14:20:54.654  INFO 12420 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-01 14:20:54.874  WARN 12420 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-04-01 14:20:54.929  INFO 12420 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@619cef33, org.springframework.security.web.context.SecurityContextPersistenceFilter@3c56868a, org.springframework.security.web.header.HeaderWriterFilter@775f9dc4, org.springframework.security.web.authentication.logout.LogoutFilter@45dae99a, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@15cb94ee, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@5c231534, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@623a81ea, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4a5b7b34, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@41617e06, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5aef0d2, org.springframework.security.web.session.SessionManagementFilter@68bebc32, org.springframework.security.web.access.ExceptionTranslationFilter@473629b5, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@434496e1]
+2021-04-01 14:20:55.015  INFO 12420 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-01 14:20:55.157  INFO 12420 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-04-01 14:20:55.182  INFO 12420 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-04-01 14:20:55.190  INFO 12420 --- [restartedMain] m.u.e.p.ProjectManagementApplication     : Started ProjectManagementApplication in 1.631 seconds (JVM running for 90.657)
+2021-04-01 14:20:55.200  INFO 12420 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-04-01 14:21:01.330  INFO 19084 --- [restartedMain] m.u.e.p.ProjectManagementApplication     : Starting ProjectManagementApplication using Java 11.0.10 on DESKTOP-U6AD8VU with PID 19084 (F:\Java\spring_workspace\project-management\target\classes started by pc in F:\Java\spring_workspace\project-management)
+2021-04-01 14:21:01.333 DEBUG 19084 --- [restartedMain] m.u.e.p.ProjectManagementApplication     : Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-04-01 14:21:01.334  INFO 19084 --- [restartedMain] m.u.e.p.ProjectManagementApplication     : The following profiles are active: dev
+2021-04-01 14:21:01.417  INFO 19084 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-04-01 14:21:01.417  INFO 19084 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-04-01 14:21:02.681  INFO 19084 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-04-01 14:21:02.791  INFO 19084 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 92 ms. Found 3 JPA repository interfaces.
+2021-04-01 14:21:04.301  INFO 19084 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-04-01 14:21:04.501  INFO 19084 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3083 ms
+2021-04-01 14:21:04.827  INFO 19084 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/project_management_db'
+2021-04-01 14:21:06.785  INFO 19084 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-01 14:21:07.557  WARN 19084 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-04-01 14:21:07.833  INFO 19084 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4ea9b770, org.springframework.security.web.context.SecurityContextPersistenceFilter@7d00d1d6, org.springframework.security.web.header.HeaderWriterFilter@146bd327, org.springframework.security.web.authentication.logout.LogoutFilter@3f76f309, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@5e00cc1, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@47ee003d, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@45a1368d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@eb87e9a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@37377044, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@64aa5384, org.springframework.security.web.session.SessionManagementFilter@1edd2e19, org.springframework.security.web.access.ExceptionTranslationFilter@4b0d48ca, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@229e445e]
+2021-04-01 14:21:08.056  INFO 19084 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-01 14:21:08.491  INFO 19084 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-04-01 14:21:08.550  INFO 19084 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-04-01 14:21:08.565  INFO 19084 --- [restartedMain] m.u.e.p.ProjectManagementApplication     : Started ProjectManagementApplication in 7.937 seconds (JVM running for 8.839)
+2021-04-01 14:21:13.594  INFO 19084 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-04-01 14:21:13.597  INFO 19084 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2021-04-01 14:21:14.310 ERROR 19084 --- [http-nio-8080-exec-2] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is javax.validation.ValidationException: HV000028: Unexpected exception during isValid call.] with root cause
+
+java.lang.NullPointerException: null
+	at java.base/java.util.Optional.orElseThrow(Optional.java:408) ~[na:na]
+	at ma.usf.examples.projectmanagement.services.EmployeeService.findByEmail(EmployeeService.java:40) ~[classes/:na]
+	at ma.usf.examples.projectmanagement.controllers.validation.UniqueValidator.isValid(UniqueValidator.java:19) ~[classes/:na]
+	at ma.usf.examples.projectmanagement.controllers.validation.UniqueValidator.isValid(UniqueValidator.java:1) ~[classes/:na]
+	at org.hibernate.validator.internal.engine.constraintvalidation.ConstraintTree.validateSingleConstraint(ConstraintTree.java:180) ~[hibernate-validator-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.validator.internal.engine.constraintvalidation.SimpleConstraintTree.validateConstraints(SimpleConstraintTree.java:62) ~[hibernate-validator-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.validator.internal.engine.constraintvalidation.ConstraintTree.validateConstraints(ConstraintTree.java:75) ~[hibernate-validator-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.validator.internal.metadata.core.MetaConstraint.doValidateConstraint(MetaConstraint.java:130) ~[hibernate-validator-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.validator.internal.metadata.core.MetaConstraint.validateConstraint(MetaConstraint.java:123) ~[hibernate-validator-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.validator.internal.engine.ValidatorImpl.validateMetaConstraint(ValidatorImpl.java:555) ~[hibernate-validator-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.validator.internal.engine.ValidatorImpl.validateConstraintsForSingleDefaultGroupElement(ValidatorImpl.java:518) ~[hibernate-validator-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.validator.internal.engine.ValidatorImpl.validateConstraintsForDefaultGroup(ValidatorImpl.java:488) ~[hibernate-validator-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.validator.internal.engine.ValidatorImpl.validateConstraintsForCurrentGroup(ValidatorImpl.java:450) ~[hibernate-validator-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.validator.internal.engine.ValidatorImpl.validateInContext(ValidatorImpl.java:400) ~[hibernate-validator-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.validator.internal.engine.ValidatorImpl.validate(ValidatorImpl.java:172) ~[hibernate-validator-6.1.7.Final.jar:6.1.7.Final]
+	at org.springframework.validation.beanvalidation.SpringValidatorAdapter.validate(SpringValidatorAdapter.java:117) ~[spring-context-5.3.3.jar:5.3.3]
+	at org.springframework.boot.autoconfigure.validation.ValidatorAdapter.validate(ValidatorAdapter.java:70) ~[spring-boot-autoconfigure-2.4.2.jar:2.4.2]
+	at org.springframework.validation.DataBinder.validate(DataBinder.java:892) ~[spring-context-5.3.3.jar:5.3.3]
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodArgumentResolver.validateIfApplicable(AbstractMessageConverterMethodArgumentResolver.java:266) ~[spring-webmvc-5.3.3.jar:5.3.3]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.resolveArgument(RequestResponseBodyMethodProcessor.java:137) ~[spring-webmvc-5.3.3.jar:5.3.3]
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:121) ~[spring-web-5.3.3.jar:5.3.3]
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:170) ~[spring-web-5.3.3.jar:5.3.3]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:137) ~[spring-web-5.3.3.jar:5.3.3]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106) ~[spring-webmvc-5.3.3.jar:5.3.3]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:894) ~[spring-webmvc-5.3.3.jar:5.3.3]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.3.jar:5.3.3]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.3.jar:5.3.3]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1060) ~[spring-webmvc-5.3.3.jar:5.3.3]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:962) ~[spring-webmvc-5.3.3.jar:5.3.3]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.3.jar:5.3.3]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909) ~[spring-webmvc-5.3.3.jar:5.3.3]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652) ~[tomcat-embed-core-9.0.41.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.3.jar:5.3.3]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733) ~[tomcat-embed-core-9.0.41.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.41.jar:9.0.41]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:327) ~[spring-security-web-5.4.2.jar:5.4.2]
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:115) ~[spring-security-web-5.4.2.jar:5.4.2]
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:81) ~[spring-security-web-5.4.2.jar:5.4.2]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.2.jar:5.4.2]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:119) ~[spring-security-web-5.4.2.jar:5.4.2]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:113) ~[spring-security-web-5.4.2.jar:5.4.2]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.2.jar:5.4.2]
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:126) ~[spring-security-web-5.4.2.jar:5.4.2]
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:81) ~[spring-security-web-5.4.2.jar:5.4.2]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.2.jar:5.4.2]
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:105) ~[spring-security-web-5.4.2.jar:5.4.2]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.2.jar:5.4.2]
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:149) ~[spring-security-web-5.4.2.jar:5.4.2]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.2.jar:5.4.2]
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63) ~[spring-security-web-5.4.2.jar:5.4.2]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.2.jar:5.4.2]
+	at org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter.doFilterInternal(DefaultLogoutPageGeneratingFilter.java:58) ~[spring-security-web-5.4.2.jar:5.4.2]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.3.jar:5.3.3]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.2.jar:5.4.2]
+	at org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter.doFilter(DefaultLoginPageGeneratingFilter.java:237) ~[spring-security-web-5.4.2.jar:5.4.2]
+	at org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter.doFilter(DefaultLoginPageGeneratingFilter.java:223) ~[spring-security-web-5.4.2.jar:5.4.2]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.2.jar:5.4.2]
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:218) ~[spring-security-web-5.4.2.jar:5.4.2]
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:212) ~[spring-security-web-5.4.2.jar:5.4.2]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.2.jar:5.4.2]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103) ~[spring-security-web-5.4.2.jar:5.4.2]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89) ~[spring-security-web-5.4.2.jar:5.4.2]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.2.jar:5.4.2]
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90) ~[spring-security-web-5.4.2.jar:5.4.2]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75) ~[spring-security-web-5.4.2.jar:5.4.2]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.3.jar:5.3.3]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.2.jar:5.4.2]
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:110) ~[spring-security-web-5.4.2.jar:5.4.2]
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:80) ~[spring-security-web-5.4.2.jar:5.4.2]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.2.jar:5.4.2]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55) ~[spring-security-web-5.4.2.jar:5.4.2]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.3.jar:5.3.3]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.2.jar:5.4.2]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:211) ~[spring-security-web-5.4.2.jar:5.4.2]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:183) ~[spring-security-web-5.4.2.jar:5.4.2]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358) ~[spring-web-5.3.3.jar:5.3.3]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271) ~[spring-web-5.3.3.jar:5.3.3]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.3.jar:5.3.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.3.jar:5.3.3]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.3.jar:5.3.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.3.jar:5.3.3]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.3.jar:5.3.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.3.jar:5.3.3]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:888) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1597) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[na:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at java.base/java.lang.Thread.run(Thread.java:834) ~[na:na]
+
+2021-04-01 14:21:14.332  WARN 19084 --- [http-nio-8080-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
