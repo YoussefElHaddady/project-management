@@ -18,6 +18,10 @@ public class ProjectService {
 	public List<Project> getAll() {
 		return proRepo.findAll();
 	}
+	
+	public Project getById(long id) {
+		return proRepo.findById(id).orElseThrow(NullPointerException::new);
+	}
 
 	public Project save(Project project) {
 		return proRepo.save(project);
@@ -25,6 +29,10 @@ public class ProjectService {
 	
 	public List<ChartData> getProjectStatus() {
 		return proRepo.getProjectStatus();
+	}
+	
+	public void delete(long id) {
+		proRepo.deleteById(id);
 	}
 
 }
