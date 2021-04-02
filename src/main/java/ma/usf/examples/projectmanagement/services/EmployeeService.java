@@ -37,7 +37,7 @@ public class EmployeeService {
 	}
 
 	public Employee getByEmail(String value) {
-		return empRepo.findByEmail(value).orElseThrow(NullPointerException::new);
+		return empRepo.findByEmail(value);
 	}
 
 	public Iterable<Employee> getAll(Pageable pageable) {

@@ -1,6 +1,7 @@
 package ma.usf.examples.projectmanagement.entities;
 
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 
 import javax.persistence.CascadeType;
@@ -13,7 +14,7 @@ import javax.persistence.JoinColumn;
 import javax.persistence.JoinTable;
 import javax.persistence.ManyToMany;
 import javax.persistence.SequenceGenerator;
-import javax.validation.constraints.NotNull;
+import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.Size;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
@@ -33,14 +34,20 @@ public class Project {
 	@SequenceGenerator(name = "project_generator", sequenceName = "project_seq", allocationSize = 1)
 	private long id;
 
-	@NotNull
+	@NotBlank
 	@Size(min = 3, max = 50)
 	private String name;
 
-	@NotNull
+	@NotBlank
 	private String stage; // NOTSTARTED, COMPLETED, INPROGRESS
 
 	private String description;
+
+	@NotBlank(message = "Start date can not be empty")
+	private Date startDate;
+
+	@NotBlank(message = "End date can not be empty")
+	private Date endDate;
 
 	@ManyToMany(cascade = { CascadeType.DETACH, CascadeType.MERGE, CascadeType.REFRESH,
 			CascadeType.PERSIST }, fetch = FetchType.LAZY)

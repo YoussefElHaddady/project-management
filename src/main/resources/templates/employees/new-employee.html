@@ -7,21 +7,28 @@
 
 	<div class="container mt-3">
 		<form th:action="@{/employees/save}" th:object="${employee}" method="POST">
+			
+			<input type="hidden" th:field="*{id}" >
+			
 			<div class="col-8 mx-auto mb-4">
 				<label for="firstName" class="form-label" >Employee FirstName</label>
 				<input type="text" id="firstName" class="form-control" placeholder="Enter Employee FirstName"
 					th:field="*{firstName}">
+				<span class="text-danger" th:if="${#fields.hasErrors('firstName')}" th:errors="${employee.firstName}" /></span>
 			</div>
 			<div class="col-8 mx-auto mb-4">
 				<label for="firstName" class="form-label" >Employee LastName</label>				
 				<input type="text" id="lastName" class="form-control" placeholder="Enter Employee LastName" 
 					th:field="*{lastName}">
+					
+				<span class="text-danger" th:if="${#fields.hasErrors('lastName')}" th:errors="${employee.lastName}" /></span>
 			</div>
 			<div class="col-8 mx-auto mb-4">
 				<label for="firstName" class="form-label" >Employee Email</label>
 				<input
 					type="email" id="email" class="form-control" placeholder="Enter Employee E-mail" 
 					th:field="*{email}">
+				<span class="text-danger" th:if="${#fields.hasErrors('email')}" th:errors="${employee.email}" /></span>
 			</div>
 						
 			<div class="col-8 mx-auto">
